@@ -1,0 +1,78 @@
+/*About-US and Terms&Conditions style*/
+
+#sample {
+    background-color: white;
+    height: 100vh;
+}
+
+#sample .image-preview {
+    padding-left: 0;
+    padding-right: 0;
+    height: 100%;
+    background-image: url('../../img/photo-1481501940778-c8bb63e376c53.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+#sample .image-preview .overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.30);
+    color: white;
+}
+
+
+#sample .content-container {
+    padding-left: 100px;
+    padding-right: 140px;
+    height: 100%;
+}
+
+#sample .content-container .title{
+    font-size: 40px;
+    margin-top:70px;
+    margin-bottom: 40px;
+}
+
+#sample .content-container .content {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 14px;
+    overflow: auto;
+    box-sizing: border-box;
+    height: 60%;
+    padding: 10px;
+}
+
+
+
+/*Mobiles and Tables*/
+
+@media(max-width: 991px) {
+    #sample .image-preview {
+        height: 60%;
+        background-size: cover;
+    }
+    #sample .content-container {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    
+    #sample .content-container .content {
+        margin-bottom: 20px;
+    }
+    
+    #sample .content-container{
+        height: auto;
+    }
+    
+
+    #sample .content-container .content{
+        overflow: visible;
+        height: auto;
+    }
+    
+    #sample .content-container .title {
+        margin-top: 50px;
+    }
+}
