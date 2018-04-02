@@ -180,23 +180,23 @@
 
 #terms-conditions .content-container .mobile-title{
     font-family: 'Abril Fatface', sans-serif;
-    font-size: 40px;
+    font-size: 32px;
     line-height: 44px;
     margin-top: 60px;
     text-transform: uppercase;
     display: none;
     color: black;
-    padding-left: 15px;
+    padding-left: 40px;
 }
 
 #terms-conditions .content-container .mobile-title:before{
     content: '&';
     font-family: 'Abril Fatface', sans-serif;
-    font-size: 70px;
+    font-size: 60px;
     color: black;
     position: absolute;
     top: 30px;
-    left: 55px;
+    left: 65px;
     
 }
 
@@ -208,13 +208,16 @@
 /*Mobiles and Tables*/
 
 @media(max-width: 991px) {
+    .about-terms {
+        height: auto;
+    }
     .about-terms .image-preview {
-        height: 50%;
+        height: 300px;
         background-size: cover;
     }
     .about-terms .content-container {
-        padding-left: 80px;
-        padding-right: 80px;
+        padding-left: 60px;
+        padding-right: 60px;
     }
     
     .about-terms .content-container:before{
@@ -259,7 +262,7 @@
     }
     #about-us .content-container .title:after {
         top: 80px;
-        left: 146px;
+        left: 130px;
     }
 
     /*Terms&Condtions Custom Style*/

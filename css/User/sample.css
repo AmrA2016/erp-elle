@@ -49,8 +49,11 @@
 /*Mobiles and Tables*/
 
 @media(max-width: 991px) {
+    #sample{
+        height: auto;
+    }
     #sample .image-preview {
-        height: 60%;
+        height: 300px;
         background-size: cover;
     }
     #sample .content-container {
