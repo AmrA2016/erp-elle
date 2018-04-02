@@ -1,0 +1,98 @@
+/*About-US and Terms&Conditions style*/
+
+#offers {
+    background-color: white;
+    height: 100vh;
+}
+#offers .carousel-indicators li { visibility: hidden; }
+
+#offers .image-preview {
+    padding-left: 0;
+    padding-right: 0;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+#offers .image-preview .overlay .logo-left {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    margin-right: 5px;
+    display: inline-block;
+}
+#offers .image-preview .overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.30);
+    color: white;
+}
+
+
+#offers .content-container {
+    padding-left: 100px;
+    padding-right: 140px;
+    height: 100%;
+}
+#offers .content-container .title{
+    font-size: 64px;
+    font-family: 'Abril Fatface', sans-serif;
+    margin-top:70px;
+    margin-bottom: 40px;
+}
+
+#offers .content-container .title2{
+    font-size: 48px;
+    margin-top:70px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+#offers .content-container .content {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    box-sizing: border-box;
+    height: 60%;
+    padding: 10px;
+}
+
+
+
+/*Mobiles and Tables*/
+
+@media(max-width: 991px) {
+    #offers{
+        height: auto;
+    }
+    #offers .image-preview {
+        height: 300px;
+        background-size: cover;
+    }
+    #offers .content-container {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    
+    #offers .content-container .content {
+        margin-bottom: 20px;
+    }
+    
+    #offers .content-container{
+        height: auto;
+    }
+    
+
+    #offers .content-container .content{
+        overflow: visible;
+        height: auto;
+    }
+    
+    #offers .content-container .title {
+        margin-top: 50px;
+    }
+}
