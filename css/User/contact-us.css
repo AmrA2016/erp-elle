@@ -27,14 +27,14 @@
 }
 
 #contact-us .content-container:after{
-    right: 36px;
+    right: 24px;
 }
 
 #contact-us .content-container .title {
     font-family: 'Abril Fatface', sans-serif;
     font-size: 48px;
     line-height: 53px;
-    margin-top: 90px;
+    margin-top: 50px;
     color: black;
     margin-bottom: 50px;
     text-transform: uppercase;
@@ -45,7 +45,7 @@
     position: absolute;
     height: 5px;
     border-top: 4px solid black;
-    top: 170px;
+    top: 130px;
     left: 165px;
     width: 95px;
 }
@@ -65,7 +65,7 @@
     width: 50px;
 }
 #contact-us .content-container .content {
-    height: 50%;
+    height: 65%;
 }
 
 
@@ -84,7 +84,7 @@
     /*About Us Custom Style*/
     
     #contact-us .content-container:after{
-        right: -4px;
+        right: -16px;
     }
     #contact-us .content-container .title {
         margin-top: 30px;
