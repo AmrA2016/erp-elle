@@ -116,9 +116,7 @@ e(this):c.doc,k=new N(c,e(this)),e(this).data("__nicescroll",k));h.push(k)});ret
 
 
 $(".scroll").niceScroll({
-                cursorcolor: "#2288C5",
                 cursoropacitymin:1,
-                background: "#0A2540",
                 cursorborder: "0",
                 autohidemode: false,
                 cursorminheight: 30,

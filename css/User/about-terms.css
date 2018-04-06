@@ -1,4 +1,11 @@
+ 
+/*
+    OWNER: Amr Atef
+    CREATED AT: 01/04/2018
+*/
 
+
+/*Common about-us and terms-condtions pages style BEGINS*/
 .about-terms {
     background-color: white;
     height: 100vh;
@@ -99,6 +106,8 @@
     color: #c6c6c6;
 }
 
+/*Common about-us and terms-condtions pages style END*/
+
 /*About Us Custom Style*/
 
 #about-us .image-preview{
@@ -134,6 +143,7 @@
 #about-us .content-container .content {
     height: 50%;
 }
+/*About Us Custom Style END*/
 
 /*Terms&Condtions Custom Style*/
 
@@ -204,9 +214,12 @@
     height: 60%;
 }
 
+/*Terms&Condtions Custom Style END*/
+
 /*Mobiles and Tables*/
 
 @media(max-width: 991px) {
+    /*Common about-us and terms-condtions pages style BEGINS*/
     .about-terms {
         height: auto;
     }
@@ -222,8 +235,6 @@
     .about-terms .content-container:before{
         right: 40px;
     }
-    
-    
     
     .about-terms .content-container .content {
         margin-bottom: 40px;
@@ -250,7 +261,8 @@
         overflow: visible;
         height: auto;
     }
-    
+    /*Common about-us and terms-condtions pages style END*/
+
     /*About Us Custom Style*/
     
     #about-us .content-container:after{
@@ -263,7 +275,8 @@
         top: 80px;
         left: 130px;
     }
-
+    /*About Us Custom Style END*/
+    
     /*Terms&Condtions Custom Style*/
     #terms-conditions .content-container:after{
         right: -3px;
@@ -278,4 +291,5 @@
     #terms-conditions .content-container .content {
         margin-top: 50px;
     }
+    /*Terms&Condtions Custom Style END*/
 }
