@@ -1,4 +1,5 @@
-/*About-US and Terms&Conditions style*/
+
+/*OFFERS Custom Style*/
 
 .offers {
     background-color: white;
@@ -77,7 +78,7 @@
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     word-spacing: 3px;
-    overflow: auto;
+    overflow: hidden;
     box-sizing: border-box;
     padding: 10px;
 }
@@ -152,8 +153,12 @@ h6:before {
 .offers .footer a:hover {
     color: #c6c6c6;
 }
-
-/*About Us Custom Style*/
+.offerimg{
+opacity: 0.5;
+}
+.offerimg:hover{
+    opacity: 1;
+}
 
 #offers .image-preview{
     background-image: url('../../img/2.jpg');
@@ -238,88 +243,15 @@ margin-top: 10px;
     
 }
 
-/*#offers .content-container .title:after {
-    content: "";
-    position: absolute;
-    height: 5px;
-    border-top: 4px solid black;
-    top: 170px;
-    left: 165px;
-    width: 95px;
-}*/
+
 
 #offers .content-container .content {
     height: 50%;
 }
 
-/*Terms&Condtions Custom Style*/
 
-#terms-conditions .image-preview{
-    background-image: url('../../img/pexels-photo-2616812.jpg');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
 
-#terms-conditions .content-container:after{
-    right: 37px;
-}
 
-#terms-conditions .content-container .desktop-title{
-    font-family: 'Abril Fatface', sans-serif;
-    font-size: 40px;
-    line-height: 44px;
-    color: black;
-    position: absolute;
-    top: 60px;
-    left: -126px;
-    text-transform: uppercase;
-}
-
-#terms-conditions .content-container .desktop-title:before{
-    content: '&';
-    font-family: 'Abril Fatface', sans-serif;
-    font-size: 70px;
-    color: white;
-    position: absolute;
-    top: 30px;
-    left: -40px;
-    
-}
-
-#terms-conditions .desktop-title .special-char:before{
-    content: 'S';
-    position: absolute;
-    color: white;
-    width: 12px;
-    overflow: hidden;
-}
-
-#terms-conditions .content-container .mobile-title{
-    font-family: 'Abril Fatface', sans-serif;
-    font-size: 32px;
-    line-height: 44px;
-    margin-top: 60px;
-    text-transform: uppercase;
-    display: none;
-    color: black;
-    padding-left: 40px;
-}
-
-#terms-conditions .content-container .mobile-title:before{
-    content: '&';
-    font-family: 'Abril Fatface', sans-serif;
-    font-size: 60px;
-    color: black;
-    position: absolute;
-    top: 30px;
-    left: 65px;
-    
-}
-
-#terms-conditions .content-container .content {
-    margin-top: 180px;
-    height: 60%;
-}
 
 /*Mobiles and Tables*/
 
@@ -341,7 +273,9 @@ margin-top: 10px;
     }
     
     
-    
+    .imgresponsive{
+        display: block;
+    }
     .offers .content-container .content {
         margin-bottom: 40px;
     }
@@ -368,7 +302,7 @@ margin-top: 10px;
         height: auto;
     }
     
-    /*About Us Custom Style*/
+   
     
     #offers .content-container:after{
         right: -7px;
@@ -381,18 +315,36 @@ margin-top: 10px;
         left: 130px;
     }
 
-    /*Terms&Condtions Custom Style*/
-    #terms-conditions .content-container:after{
-        right: -3px;
-    }
-    
-    #terms-conditions .content-container .desktop-title{
+
+}
+/*RESOPONSIVE MEDIA QUERY HANDLING*/
+@media(max-width:480px)
+{
+
+    .offernext{
         display: none;
     }
-    #terms-conditions .content-container .mobile-title{
-        display: block;
+    .next-img{
+        padding-right: 0;
     }
-    #terms-conditions .content-container .content {
-        margin-top: 50px;
+    .next-img img{
+        width: 125%;
+    }
+    .next-img:before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 20%;
+        background-color: rgba(0,0,0,0.5);
+    }
+    .next-img:after{
+        content: "next";
+        position: absolute;
+        color: white;
+        top: 40%;
+        left: 50%;
+
     }
 }
