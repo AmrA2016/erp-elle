@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>News</title>
+	<link rel="stylesheet" type="text/css" href="../../css/Global/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../../css/Global/font-awesome.min.css">
+	<link rel="stylesheet" href="../../css/Global/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../css/Global/owl.theme.default.min.css">
+		
+	<link rel="stylesheet" type="text/css" href="../../css/User/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+	
+	<div id="news-container">
+		<div class="container-fluid">
+			<div class="row" id="news">
+				<div class="col-md-12">
+					<div class="col-md-6 image-container">
+						<!-- <img src="./images/blonde1.jpg"> -->
+					</div>
+					<div class="col-md-6 content-container">
+						<img src="../../img/news_owner.png">
+						<strong class="news-owner-name">MATTHEW KANE</strong>
+						<h1 class="news-title">Lorem Ipsum is simply dummy text</h1>
+						<p class="news-content">
+							Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy text of the printing and typesettin
+						</p>
+						<div class="pull-right know-more-container">
+							<a class="know-more" href="#">KNOW MORE</a>
+							<img src="../../img/line.png">
+						</div>
+						<div class="clearfix"></div>
+
+						<div class="owl-carousel owl-theme">
+				            <div class="owl-item">
+				            	<div class="frame">
+				            		<img src="../../img/r2asa.png">
+				            	</div>
+				            </div>
+
+				            <div class="owl-item">
+				            	<img src="../../img/r2asa.png">
+				            </div>
+
+				            <div class="owl-item">
+				            	<img src="../../img/r2asa.png">
+				            </div>
+
+				            <div class="owl-item">
+				            	<img src="../../img/r2asa.png">
+				            </div>
+						        
+						</div>
+
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+<script type="text/javascript" src="../../js/Global/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../../js/Global/bootstrap.min.js"></script>
+<script src="../../js/Global/owl.carousel.js"></script>
+<script type="text/javascript" src="../../js/User/custom.js"></script>
+
+<script>
+            $(document).ready(function() {
+              $('.owl-carousel').owlCarousel({
+                loop: false,
+                margin: 10,
+                navText:['Previous' ,'<img src="../../img/line.png"> &nbsp; &nbsp;&nbsp;Next'],
+                responsiveClass: true, 
+                responsive: {
+                  0: {
+                    items: 2,
+                    nav: true,
+                    margin: 20
+                  },
+                  600: {
+                    items: 2,
+                    nav: true
+                  },
+                  1000: {
+                    items: 2,
+                    nav: true,
+                    loop: false,
+                    margin: 20
+                  }
+                }
+              })
+            })
+          </script>
+
+</html>
