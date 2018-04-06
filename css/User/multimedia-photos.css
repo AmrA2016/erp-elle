@@ -1,0 +1,155 @@
+/* Page style begins */
+
+/* side navigation style begins */
+
+.photos-page .page-content:before {
+  position: absolute;
+  content: '';
+  top: 20%;
+  right: 80px;
+  height: 75vh;
+  width: 1px;
+  border-right: 1px solid Black;
+}
+
+.photos-page .page-content:after {
+  position: absolute;
+  content: "   " attr(title) "   ";
+  white-space: pre;
+  top: 47%;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 20px;
+  transform: rotate(-90deg);
+  text-transform: uppercase;
+  right: -8px;
+  z-index: 10;
+}
+
+/* side navigation style ends */
+
+/* image-preview style begins */
+
+.photos-page {
+  background-color: white;
+  height: 100vh;
+}
+
+.photos-page .image-preview {
+  padding-left: 0;
+  padding-right: 0;
+  height: 100%;
+}
+
+.photos-page .image-preview .overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.30);
+  bottom: 0;
+  color: white;
+  padding-top: 15px;
+  padding-left: 35px;
+}
+
+#multimedia-photos .image-preview {
+  background-image: url('../../img/tanja-heffner-314087-unsplash.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/* image-preview style ends */
+
+/* logo style begins */
+
+.overlay span {
+  font-family: 'Abril Fatface';
+  color: white;
+  font-size: 32px;
+}
+
+.overlay .logo-left {
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  margin-right: 5px;
+  display: inline-block;
+}
+
+/* logo style ends */
+
+/* tabs style begins */
+
+.tabs {
+  position: absolute;
+  top: 50px;
+  z-index: 12;
+}
+
+.tabs .videos {
+  width: 200px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tabs .photos {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tabs h6 {
+  color: Black;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: 'Abril Fatface';
+  font-style: italic;
+}
+
+.tabs .videos h6 {
+  color: white;
+}
+
+/* diagonal strike on the video tab style*/
+
+.tabs .photos:before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 40%;
+  right: 0;
+  border-top: 1px solid;
+  border-color: Black;
+  -webkit-transform: rotate(36deg);
+  -moz-transform: rotate(36deg);
+  -ms-transform: rotate(36deg);
+  -o-transform: rotate(36deg);
+  transform: rotate(36deg);
+  z-index: 12;
+}
+
+/* tabs style ends */
+
+/* footer style begins */
+
+.photos-page .footer {
+  padding-left: 30px;
+  height: 5%;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  z-index: 10;
+}
+
+.photos-page .footer a {
+  color: white;
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.photos-page .footer a:hover {
+  color: #c6c6c6;
+}
+
+/* footer style ends */
