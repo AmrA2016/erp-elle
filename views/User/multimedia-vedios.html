@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-
+<!--
+   Author: Manar Ashraf Bayoumi
+   ID: 20140277
+ -->
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +20,7 @@
 
   <!-- owl carousel slider style links -->
   <link rel="stylesheet" href="../../css/Global/owl.carousel.min.css">
-  <link rel="stylesheet" href="../../css/User/owl.theme.default.min.css">
+  <link rel="stylesheet" href="../../css/Global/owl.theme.default.min.css">
 
   <!-- page style link -->
   <link rel="stylesheet" type="text/css" href="../../css/User/multimedia-videos.css">
@@ -59,56 +62,34 @@
             <span id="video-date">20/03/18</span>
           </div>
           <!-- video description part ends-->
+          <div class="clearfix"></div>
+        </div>
 
-          <!-- video slider begins -->
-          <!-- <div class="slider">
-            <section id="demos">
-              <div class="row">
-                <div class="large-12 columns">
-                  <div class="owl-carousel owl-theme">
-                    <div class="item">
-                      <h4>1</h4>
-                    </div>
-                    <div class="item">
-                      <h4>2</h4>
-                    </div>
-                    <div class="item">
-                      <h4>3</h4>
-                    </div>
-                    <div class="item">
-                      <h4>4</h4>
-                    </div>
-                    <div class="item">
-                      <h4>5</h4>
-                    </div>
-                    <div class="item">
-                      <h4>6</h4>
-                    </div>
-                    <div class="item">
-                      <h4>7</h4>
-                    </div>
-                    <div class="item">
-                      <h4>8</h4>
-                    </div>
-                    <div class="item">
-                      <h4>9</h4>
-                    </div>
-                    <div class="item">
-                      <h4>10</h4>
-                    </div>
-                    <div class="item">
-                      <h4>11</h4>
-                    </div>
-                    <div class="item">
-                      <h4>12</h4>
-                    </div>
-                  </div>
+      </div>
+      <!-- video slider begins -->
+      <!-- <div class="owl-carousel owl-theme">
+              <div class="owl-item">
+                <div class="frame">
+                  <img src="../../img/r2asa.png">
                 </div>
               </div>
-          </div> -->
-          <!-- video slider ends -->
-        </div>
-      </div>
+
+              <div class="owl-item">
+                <img src="../../img/r2asa.png">
+              </div>
+
+              <div class="owl-item">
+                <img src="../../img/r2asa.png">
+              </div>
+
+              <div class="owl-item">
+                <img src="../../img/r2asa.png">
+              </div>
+
+      </div> -->
+
+
+      <!-- video slider ends -->
 
       <div class="footer">
         <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -126,10 +107,35 @@
 <script src="../../js/Global/bootstrap.min.js"></script>
 
 <!-- owl carousel scripts -->
-<script src="../../js/Global/owl.carousel.min.js"></script>
-<script src="../../js/User/slider-video.js"></script>
+<script src="../../js/Global/owl.carousel.js"></script>
+<script type="text/javascript" src="../../js/User/custom.js"></script>
 
 <script type="text/javascript">
+$(document).ready(function() {
+  $('.owl-carousel').owlCarousel({
+    loop: false,
+    margin: 10,
+    navText:['<img src="../../img/line.png"> &nbsp; &nbsp;&nbsp;Next'],
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 2,
+        nav: true,
+        margin: 20
+      },
+      600: {
+        items: 2,
+        nav: true
+      },
+      1000: {
+        items: 2,
+        nav: true,
+        loop: false,
+        margin: 20
+      }
+    }
+  })
+})
 </script>
 
 </html>

@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+<!--
+   Author: Manar Ashraf Bayoumi
+   ID: 20140277
+ -->
 
 <head>
   <meta charset="utf-8">
@@ -34,10 +38,10 @@
       <!-- image-preview and logo part ends  -->
 
       <!-- Page content part begins -->
-      <div class="page-content" title="Multimedia">
+      <div class="page-content white-overlay" title="Multimedia">
 
         <!-- tabs part begins -->
-        <div class="tabs col-md-4 col-md-push-5">
+        <div class="tabs col-md-4 col-md-push-5 no-padding-left">
           <div class="col-md-2">
             <a class="videos"><h6>VIDEOS</h6></a>
           </div>
@@ -48,28 +52,52 @@
         <!-- tabs part ends -->
 
         <!-- photo description part begins -->
-         <div class="description-container col-md-6">
-           <div class="col-md-2">
-              <img />
-           </div>
-           <div class="col-md-4">
-              <h6></h6>
-           </div>
-           <div class="col-md-6">
-             <p>
+        <div class="description-container col-md-5 col-md-push-1">
+          <img src="../../img/news_owner.png" />
+          <strong class="photo-owner-name">MATTHEW KANE</strong>
+          <h6></h6>
+          <h1 class="photo-title">Lorem Ipsum is simply dummy</h1>
+          <p class="photo-content" id="hidden-content">
+            Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy text of the printing and typesettin
+            Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy text of the printing and typesettin
+          </p>
+          <div id="know-more-button" class="know-more-container col-md-push-1">
+            <a class="know-more" href="#" onclick="showcontent()">KNOW MORE</a>
+            <img src="../../img/line.png">
+          </div>
+          <div class="clearfix"></div>
 
-             </p>
-           </div>
-             <a class="know-more"><h6>Know More</h6></a>
-           <div class="col-md-6 hidden-content">
-             <p>
+          <!-- back to home part begins -->
+          <div class="back-to-home">
+            <a href="#" class="linkhome">
+              <p class="back-btn">BACK TO HOME </p>
+            </a>
+          </div>
+          <!-- back to home part ends -->
 
-             </p>
-           </div>
-         </div>
+          <!-- previous and next part begins -->
+          <div class="prev-next">
+            <a><img src="../../img/back.png" /><span>Previous</span></a>
+            <a><img src="../../img/line.png"><span>Next</span><img src="../../img/next.png"></a>
+          </div>
+          <!-- previous and next part ends -->
+
+          <!-- black footer part begins -->
+          <div class="black-footer">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+          </div>
+          <!-- black footer part ends -->
+        </div>
 
 
         <!-- photo description part ends -->
+        <!--
+        <div class="low-opacity-photo">
+          <img src="../../img/photo-1481501940778-c8bb63e376c5.jpg" />
+        </div> -->
 
       </div>
       <!-- Page content part start -->
@@ -90,5 +118,6 @@
 <!-- bootstrap scripts  -->
 <script src="../../js/Global/jquery.min.js"></script>
 <script src="../../js/Global/bootstrap.min.js"></script>
+<script src="../../js/User/photos.js"></script>
 
 </html>

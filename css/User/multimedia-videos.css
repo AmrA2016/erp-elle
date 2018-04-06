@@ -116,7 +116,9 @@ body:after {
   font-family: 'Abril Fatface';
   font-style: italic;
 }
+
 /* diagonal strike on the video tab style*/
+
 .tabs .videos:before {
   position: absolute;
   content: "";
@@ -184,5 +186,26 @@ body:after {
 }
 
 /* footer style ends */
+
+/* video slider owl carousel style begins */
+
+#multimedia-videos .owl-nav {
+  text-align: left !important;
+}
+
+#multimedia-videos .owl-theme .owl-nav [class*=owl-] {
+  color: black;
+}
+
+
+#multimedia-videos .owl-theme .owl-nav [class*=owl-]:hover {
+  color: black;
+}
+
+#multimedia-videos .owl-dots {
+  display: none;
+}
+
+/* video slider owl carousel style ends */
 
 /* page content style ends */
