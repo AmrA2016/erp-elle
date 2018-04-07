@@ -8,7 +8,12 @@
     width: 85%;
 
 }
-
+.news-container .menu-icon span {
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 999;
+}
 #contact-us .contact-us-title {
     font-size: 15px;
     font-weight: bold;
@@ -75,6 +80,9 @@
         height: auto;
     }
     
+    #contact-us .image-preview{
+        height: 300px;
+    }
 
     #contact-us .content-container .content, #terms-conditions .content-container .content{
         overflow: visible;

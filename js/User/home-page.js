@@ -7,8 +7,7 @@ $(function(){
     }
     else{
       $(".triggreMenu").removeClass("glyphicon-remove").addClass("glyphicon-menu-hamburger");
-      $(".right-menu").css('display','none');
-	$(".right-menu").css('z-index','9999');
+      $(".right-menu").css('display',"none");
     }
   });
 })
