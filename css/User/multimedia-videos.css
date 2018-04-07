@@ -94,7 +94,7 @@ body:after {
 
 .tabs {
   position: absolute;
-  top: 50px;
+  top: 25px;
   z-index: 12;
 }
 
@@ -131,7 +131,7 @@ body:after {
   -moz-transform: rotate(36deg);
   -ms-transform: rotate(36deg);
   -o-transform: rotate(36deg);
-  transform: rotate(36deg);
+  transform: rotate(25deg);
   z-index: 5;
 }
 

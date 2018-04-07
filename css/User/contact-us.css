@@ -52,7 +52,7 @@
 #contact-us .content-container .save-button {
   	background:none;
     border:none;
-    
+
 }
 #contact-us .content-container .save-span {
     content: "";
@@ -70,25 +70,25 @@
 
 
 @media(max-width: 991px) {
-    
+
     #contact-us .content-container, #terms-conditions .content-container{
         height: auto;
     }
-    
+
 
     #contact-us .content-container .content, #terms-conditions .content-container .content{
         overflow: visible;
         height: auto;
     }
-    
+
     /*About Us Custom Style*/
-    
+
     #contact-us .content-container:after{
         right: -16px;
     }
     #contact-us .content-container .title {
         margin-top: 30px;
-	font-family: 'Abril Fatface', sans-serif;
+	      font-family: 'Abril Fatface', sans-serif;
     }
     #contact-us .content-container .title:after {
         top: 80px;

@@ -16,7 +16,7 @@
   position: absolute;
   content: "   " attr(title) "   ";
   white-space: pre;
-  top: 47%;
+  top: 55%;
   color: black;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
@@ -84,12 +84,16 @@
 
 .tabs {
   position: absolute;
-  top: 50px;
+  top: 25px;
   z-index: 12;
 }
 
+.tabs .photos {
+  width: 100px;
+  text-decoration: none;
+  cursor: pointer;
+}
 .tabs .videos {
-  width: 200px;
   text-decoration: none;
   cursor: pointer;
 }
@@ -117,7 +121,7 @@
   position: absolute;
   content: "";
   left: 0px;
-  top: 40%;
+  top: 55%;
   right: 0;
   border-top: 1px solid;
   border-color: Black;
@@ -125,10 +129,12 @@
   -moz-transform: rotate(36deg);
   -ms-transform: rotate(36deg);
   -o-transform: rotate(36deg);
-  transform: rotate(36deg);
+  transform: rotate(25deg);
   z-index: 12;
 }
-
+.tablets-mobiles-tab{
+  display: none;
+}
 /* tabs style ends */
 
 /* footer style begins */
@@ -192,7 +198,7 @@
 }
 
 #multimedia-photos .description-container .photo-content {
-  font-size: 16px;
+  font-size: 15px;
   margin-bottom: 25px;
   font-family: "Lato";
   color: black;
@@ -204,7 +210,7 @@
 /*  know more style begins */
 
 #multimedia-photos .description-container .know-more {
-  font-size: 16px;
+  font-size: 11px;
   color: black;
   font-weight: bold;
   margin-right: 5px;
@@ -276,7 +282,6 @@
   text-decoration: none;
   cursor: pointer;
 }
-
 /* previous and next style ends */
 
 /* custom padding classes style  */
@@ -288,3 +293,124 @@
 .no-padding-right {
   padding-right: 0;
 }
+
+/* media query part begins  */
+/*Mobiles and Tables*/
+
+@media( max-width: 991px) {
+    .photos-page {
+        height: auto;
+    }
+    .photos-page .image-preview {
+        height: 300px;
+        background-size: cover;
+    }
+    .photos-page .content-container {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .photos-page .content-container:before{
+        right: 40px;
+    }
+
+    .about-terms .content-container .content {
+        margin-bottom: 40px;
+    }
+
+    .photos-page .footer {
+        bottom: auto;
+    }
+
+    .photos-page .footer a {
+        color: black;
+    }
+
+    .photos-page .content-container:before{
+        height: 80%;
+    }
+
+    #multimedia-photos .description-container{
+        height: auto;
+    }
+
+    #multimedia-photos .description-container{
+        overflow: visible;
+        height: auto;
+    }
+    #multimedia-photos .hidden{
+      display: none;
+    }
+    #multimedia-photos .description-container {
+      margin-top: 150px;
+    }
+
+    #multimedia-photos .description-container .photo-title {
+      font-size: 20px;
+      width: 20em;
+    }
+
+    #multimedia-photos .description-container .photo-content {
+      font-size: 16px;
+      margin-bottom: 20px;
+      width: 30em;
+    }
+    #multimedia-photos .tabs .desktop-tab{
+      display: none;
+    }
+    #multimedia-photos .tabs .tablets-mobiles-tab{
+      display: block;
+    }
+    #multimedia-photos .tabs .videos h6{
+      color: black;
+    }
+    #multimedia-photos .tabs{
+    margin-left: 300px;
+    }
+    #multimedia-photos .prev-next{
+      position: absolute;
+      top: 270px;
+    }
+    #multimedia-photos .back-to-home{
+      position: absolute;
+      top: 340px;
+    }
+    #multimedia-photos .black-footer{
+      padding-bottom: 30px;
+    }
+}
+@media screen and (max-width:778px){
+
+  #multimedia-photos .description-container {
+    margin-top: 30px;
+  }
+  #multimedia-photos .description-container .photo-title {
+    font-size: 20px;
+    width: 20em;
+  }
+
+  #multimedia-photos .description-container .photo-content {
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 30em;
+  }
+  #multimedia-photos .tabs .desktop-tab{
+    display: none;
+  }
+  #multimedia-photos .tabs .tablets-mobiles-tab{
+    display: block;
+  }
+  #multimedia-photos .tabs .videos h6{
+    color: black;
+  }
+  /* #multimedia-photos .tabs{
+  margin-left: 300px;
+  } */
+}
+@media screen and (max-width:1220px){
+
+  #multimedia-photos .description-container {
+    margin-top: 130px;
+  }
+}
+/* media query part ends */
