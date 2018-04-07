@@ -4,6 +4,7 @@
    Author: Manar Ashraf Bayoumi
    ID: 20140277
  -->
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -50,46 +51,74 @@
         </div>
         <!-- tabs part ends -->
 
-
+      <!-- video description part begins -->
         <div class="video-preview">
-          <!-- video description part begins -->
-          <div class="col-md-6">
+          <div class="col-md-6 col-md-push-7">
             <span class="glyphicon glyphicon-play play-icon"></span>
             <span id="video-duration">03:00</span>
             <p class="video-name">
               Lorem Ipsum is simply dummy
             </p>
             <span id="video-date">20/03/18</span>
+
+            <!-- video slider begins -->
+            <div class="video-slider">
+              <div class="owl-carousel owl-theme">
+                <div class="owl-item">
+                  <div class="frame">
+                    <div class="video-slider-overlay">
+                      <img src="../../img/photo-1512053495053-20f2b036d1d4.jpg">
+                    </div>
+                    <p>
+                      Lorem Ipsum is simply <span>03:00</span> dummy
+                    </p>
+                    <span> 20/03/18</span>
+                  </div>
+                </div>
+
+                <div class="owl-item">
+                  <div class="video-slider-overlay">
+                    <img src="../../img/photo-1512053495053-20f2b036d1d4.jpg">
+                  </div>
+
+                  <p>
+                    Lorem Ipsum is simply <span>03:00</span> dummy
+                  </p>
+                  <span> 20/03/18</span>
+                </div>
+
+                <div class="owl-item">
+                  <div class="video-slider-overlay">
+                    <img src="../../img/photo-1512053495053-20f2b036d1d4.jpg">
+                  </div>
+
+                  <p>
+                    Lorem Ipsum is simply <span>03:00</span> dummy
+                  </p>
+                  <span> 20/03/18</span>
+                </div>
+
+                <div class="owl-item last-item">
+                  <div class="video-slider-overlay">
+                    <img src="../../img/photo-1512053495053-20f2b036d1d4.jpg">
+                  </div>
+
+                  <p>
+                    Lorem Ipsum is simply <span>03:00</span> dummy
+                  </p>
+                  <span> 20/03/18</span>
+                </div>
+
+              </div>
+            </div>
+            <!-- video slider ends -->
+
           </div>
           <!-- video description part ends-->
           <div class="clearfix"></div>
+
         </div>
-
       </div>
-      <!-- video slider begins -->
-      <!-- <div class="owl-carousel owl-theme">
-              <div class="owl-item">
-                <div class="frame">
-                  <img src="../../img/r2asa.png">
-                </div>
-              </div>
-
-              <div class="owl-item">
-                <img src="../../img/r2asa.png">
-              </div>
-
-              <div class="owl-item">
-                <img src="../../img/r2asa.png">
-              </div>
-
-              <div class="owl-item">
-                <img src="../../img/r2asa.png">
-              </div>
-
-      </div> -->
-
-
-      <!-- video slider ends -->
 
       <div class="footer">
         <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -111,31 +140,50 @@
 <script type="text/javascript" src="../../js/User/custom.js"></script>
 
 <script type="text/javascript">
-$(document).ready(function() {
-  $('.owl-carousel').owlCarousel({
-    loop: false,
-    margin: 10,
-    navText:['<img src="../../img/line.png"> &nbsp; &nbsp;&nbsp;Next'],
-    responsiveClass: true,
-    responsive: {
-      0: {
-        items: 2,
-        nav: true,
-        margin: 20
-      },
-      600: {
-        items: 2,
-        nav: true
-      },
-      1000: {
-        items: 2,
-        nav: true,
-        loop: false,
-        margin: 20
+  $(document).ready(function() {
+    $('.video-slider .owl-carousel').owlCarousel({
+      loop: false,
+      margin: 0,
+      navText: ['Previous', 'Next'],
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 2,
+          nav: true,
+          margin: 0
+        },
+        600: {
+          items: 2,
+          nav: true
+        },
+        1000: {
+          items: 2,
+          nav: true,
+          loop: false,
+          margin: 0
+        }
       }
-    }
+    })
+    $('.owl-prev').on('click', function(event){
+      $('.owl-carousel').trigger('to.owl.carousel',[0])
+      var currentItem = $(".video-slider .active").index();
+      if(currentItem == 0)
+      {
+        $('.owl-prev').css('display','none');
+      }
+  });
+  $('.owl-next').on('click', function(event){
+    var currentItem = $(".video-slider .active").index();
+    var items = $(".video-slider .owl-item").length;
+    items = (items/2)-2;
+   if(currentItem != items){
+       $('.owl-prev').css('display','none');
+   }else{
+     $('.owl-prev').css('display','block');
+   }
+});
   })
-})
+
 </script>
 
 </html>

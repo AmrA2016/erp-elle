@@ -57,7 +57,7 @@ body:after {
 .video-preview {
   position: absolute;
   right: 13%;
-  top: 35%;
+  top: 30%;
   z-index: 10;
 }
 
@@ -78,7 +78,7 @@ body:after {
 
 .video-preview #video-duration {
   color: white;
-  margin-left: 263px;
+  margin-left: 203px;
   font-family: 'Abril Fatface';
 }
 
@@ -111,7 +111,7 @@ body:after {
 
 .tabs h6 {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: normal;
   font-family: 'Abril Fatface';
   font-style: italic;
@@ -192,18 +192,67 @@ body:after {
 #multimedia-videos .owl-nav {
   text-align: left !important;
 }
-
-#multimedia-videos .owl-theme .owl-nav [class*=owl-] {
-  color: black;
-}
-
-
-#multimedia-videos .owl-theme .owl-nav [class*=owl-]:hover {
-  color: black;
-}
-
 #multimedia-videos .owl-dots {
   display: none;
+}
+#multimedia-videos .owl-carousel .owl-item{
+  width: 85%;
+  height: 50%;
+}
+#multimedia-videos .owl-carousel{
+  margin-top: 30px;
+}
+#multimedia-videos .owl-carousel .owl-item img{
+  width: 90%;
+  height: 10%;
+}
+#multimedia-videos .owl-carousel .owl-prev{
+  position: absolute;
+  top: 30%;
+}
+#multimedia-videos .owl-carousel .owl-next{
+  position: absolute;
+  top: 30%;
+}
+#multimedia-videos .owl-carousel .disabled{
+  display: none;
+}
+.owl-theme .owl-controls .owl-nav .disabled{ opacity: 0.5; cursor: default; }
+
+#multimedia-videos .owl-carousel .owl-item img{
+  opacity: 0.7;
+}
+#multimedia-videos .owl-carousel .last-item img{
+  opacity: 0.3;
+}
+#multimedia-videos .owl-carousel .owl-item p, #multimedia-videos .owl-carousel .owl-item span{
+  margin-bottom: 0;
+  width: 15em;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+#multimedia-videos .owl-carousel .owl-item p span{
+margin-left: 5px;
+}
+#multimedia-videos .owl-carousel .owl-next, #multimedia-videos .owl-carousel .owl-prev{
+  background-color: transparent;
+  font-family: 'Abril Fatface';
+  font-style: italic;
+}
+#multimedia-videos .owl-theme .owl-nav [class*=owl-] {
+  color: white;
+  font-size: 20px;
+}
+#multimedia-videos .owl-theme .owl-nav [class*=owl-next] {
+  padding-left: 70px;
+}
+#multimedia-videos .owl-theme .owl-nav [class*=owl-prev] {
+padding-left: 60px;
+}
+
+#multimedia-videos .owl-theme .owl-nav [class*=owl-]:hover {
+  color: white;
 }
 
 /* video slider owl carousel style ends */
