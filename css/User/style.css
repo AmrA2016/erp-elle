@@ -5,6 +5,14 @@ body{
 	font-family: 'Lato', sans-serif;
 }
 
+#news-container .menu-icon span{
+	color:black;
+}
+
+#news-container .glyphicon-remove{
+	color: white !important;
+}
+
 #news .col-md-12:first-child{
 	padding-left: 0px;
 	display: flex;
