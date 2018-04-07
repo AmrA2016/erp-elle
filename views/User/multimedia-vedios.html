@@ -52,8 +52,7 @@
         <!-- tabs part ends -->
 
       <!-- video description part begins -->
-        <div class="video-preview">
-          <div class="col-md-6 col-md-push-7">
+        <div class="video-preview col-md-6 col-md-push-5 no-padding-right">
             <span class="glyphicon glyphicon-play play-icon"></span>
             <span id="video-duration">03:00</span>
             <p class="video-name">
@@ -98,6 +97,16 @@
                   <span> 20/03/18</span>
                 </div>
 
+                <div class="owl-item ">
+                  <div class="video-slider-overlay">
+                    <img src="../../img/photo-1512053495053-20f2b036d1d4.jpg">
+                  </div>
+
+                  <p>
+                    Lorem Ipsum is simply <span>03:00</span> dummy
+                  </p>
+                  <span> 20/03/18</span>
+                </div>
                 <div class="owl-item last-item">
                   <div class="video-slider-overlay">
                     <img src="../../img/photo-1512053495053-20f2b036d1d4.jpg">
@@ -112,8 +121,6 @@
               </div>
             </div>
             <!-- video slider ends -->
-
-          </div>
           <!-- video description part ends-->
           <div class="clearfix"></div>
 
@@ -143,14 +150,14 @@
   $(document).ready(function() {
     $('.video-slider .owl-carousel').owlCarousel({
       loop: false,
-      margin: 0,
+      margin: 10,
       navText: ['Previous', 'Next'],
       responsiveClass: true,
       responsive: {
         0: {
           items: 2,
           nav: true,
-          margin: 0
+          margin: 20
         },
         600: {
           items: 2,
@@ -160,12 +167,12 @@
           items: 2,
           nav: true,
           loop: false,
-          margin: 0
+          margin: 20
         }
       }
     })
     $('.owl-prev').on('click', function(event){
-      $('.owl-carousel').trigger('to.owl.carousel',[0])
+      $('.owl-carousel').trigger('to.owl.carousel',[0,0,true])
       var currentItem = $(".video-slider .active").index();
       if(currentItem == 0)
       {
