@@ -1,0 +1,158 @@
+/*
+Author : Mohamed Mamdouh
+Style Sheet for Home page
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+#home-page{
+  min-height: 100vh;
+  background-image: url('../../img/home-page-cover.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position-y: -19px;
+  overflow: hidden;
+}
+
+#home-page .overLay{
+  background-color: rgba(0,0,0,.2);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.header{
+  padding: 20px;
+	position: absolute;
+  width: 100%;
+  height: 102px;
+  top: 1px;
+	z-index: 10;
+}
+
+.menu-icon span{
+  color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.logo span {
+    font-family: 'Abril Fatface', sans-serif;
+    color: white;
+    font-size: 32px;
+  }
+
+.logo .logo-left {
+      -moz-transform: scale(-1, 1);
+      -webkit-transform: scale(-1, 1);
+      -o-transform: scale(-1, 1);
+      -ms-transform: scale(-1, 1);
+      transform: scale(-1, 1);
+      margin-right: 5px;
+      display: inline-block;
+  }
+
+
+#home-page .content-container:before{
+  position: absolute;
+  content: '';
+  top: 16%;
+  right: 128px;
+  height: 75vh;
+  width: 1px;
+  border-right: 1px solid rgba(82, 29, 47, .5);
+}
+
+#home-page .content-container:after{
+  position: absolute;
+  content: " Home ";
+  white-space: pre;
+  top: 24%;
+  color: rgba(255, 255, 255, .5);
+  text-decoration: line-through;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  letter-spacing: 4px;
+  font-size: 15px;
+  transform: rotate(-90deg);
+  text-transform: uppercase;
+  right: 92px;
+
+}
+
+
+
+
+#home-page .body .caption{
+  color: #fff;
+      margin-right: 56px;
+      margin-right: 40px;
+    margin-top: 130px;
+}
+
+#home-page .body .caption h3:nth-of-type(1)
+{
+  letter-spacing: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+#home-page .body .caption h3:nth-of-type(2),
+#home-page .body .caption h3:nth-of-type(3){
+  font-size: 56px;
+font-weight: bold;
+text-transform: uppercase;
+margin-bottom: 0;
+    margin-top: 0;
+        letter-spacing: 6px;
+}
+
+
+
+
+
+#home-page .footer {
+    padding-left: 30px;
+    height: 5%;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+}
+
+#home-page .footer a {
+    color: white;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.right-menu{
+  position: absolute;
+  display: none;
+	right: 2px;
+    top: 0;
+height: 100%;
+background-color: rgba(0,0,0,.9);
+width: 50%;
+}
+.right-menu ul.list-unstyled li{
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+.right-menu .menu{
+      margin-top: 116px;
+}
+.right-menu .menu ul li a{
+  color: #fff;
+  font-size: 23px;
+}
