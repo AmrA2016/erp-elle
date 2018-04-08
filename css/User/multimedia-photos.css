@@ -6,10 +6,11 @@
   position: absolute;
   content: '';
   top: 20%;
-  right: 80px;
+  right: 60px;
   height: 75vh;
   width: 1px;
   border-right: 1px solid Black;
+  z-index: 200;
 }
 
 .photos-page .page-content:after {
@@ -24,10 +25,29 @@
   font-size: 20px;
   transform: rotate(-90deg);
   text-transform: uppercase;
-  right: -8px;
-  z-index: 10;
+  right: -30px;
+  z-index: 200;
 }
-
+.photos-page .page-content{
+  background-image: url("../../img/photo-1481501940778-c8bb63e376c5.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-left: 0;
+  padding-right: 0;
+  height: 100%;
+}
+.photos-page .white-background{
+  background-color: white;
+  z-index: 10;
+  width: 85%;
+  height: 100%;
+}
+.photos-page .page-content .overlay {
+  height: 100%;
+  background-color: rgba(225,225, 225, 0.6);
+  bottom: 0;
+  color: white;
+}
 /* side navigation style ends */
 
 /* image-preview style begins */
@@ -61,9 +81,14 @@
 /* image-preview style ends */
 
 /* navbar style begins */
-.menu-icon span{
-  color: black;
+
+#multimedia-photos .glyphicon-remove:before{
+  color: white;
 }
+#multimedia-photos .glyphicon-menu-hamburger:before{
+  color: #2f2f2f;
+}
+
 /* navbar style ends */
 
 /* tabs style begins */
@@ -79,6 +104,7 @@
   text-decoration: none;
   cursor: pointer;
 }
+
 .tabs .videos {
   text-decoration: none;
   cursor: pointer;
@@ -118,9 +144,11 @@
   transform: rotate(25deg);
   z-index: 12;
 }
-.tablets-mobiles-tab{
+
+.tablets-mobiles-tab {
   display: none;
 }
+
 /* tabs style ends */
 
 /* footer style begins */
@@ -268,9 +296,17 @@
   text-decoration: none;
   cursor: pointer;
 }
+
 /* previous and next style ends */
 
-/* custom padding classes style  */
+/* side photo style begins */
+#multimedia-photos .low-opacity-photo{
+  width: 100%;
+  height: 100%;
+}
+/* side photo style ends */
+
+/* custom padding classes style begins */
 
 .no-padding-left {
   padding-left: 0;
@@ -280,123 +316,127 @@
   padding-right: 0;
 }
 
+/* custom padding classes style ends */
+
 /* media query part begins  */
-/*Mobiles and Tables*/
+
+/*Tablets screens begins*/
 
 @media( max-width: 991px) {
-    .photos-page {
-        height: auto;
-    }
-    .photos-page .image-preview {
-        height: 300px;
-        background-size: cover;
-    }
-    .photos-page .content-container {
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-
-    .photos-page .content-container:before{
-        right: 40px;
-    }
-
-    .about-terms .content-container .content {
-        margin-bottom: 40px;
-    }
-
-    .photos-page .footer {
-        bottom: auto;
-    }
-
-    .photos-page .footer a {
-        color: black;
-    }
-
-    .photos-page .content-container:before{
-        height: 80%;
-    }
-
-    #multimedia-photos .description-container{
-        height: auto;
-    }
-
-    #multimedia-photos .description-container{
-        overflow: visible;
-        height: auto;
-    }
-    #multimedia-photos .hidden{
-      display: none;
-    }
-    #multimedia-photos .description-container {
-      margin-top: 150px;
-    }
-
-    #multimedia-photos .description-container .photo-title {
-      font-size: 20px;
-      width: 20em;
-    }
-
-    #multimedia-photos .description-container .photo-content {
-      font-size: 16px;
-      margin-bottom: 20px;
-      width: 30em;
-    }
-    #multimedia-photos .tabs .desktop-tab{
-      display: none;
-    }
-    #multimedia-photos .tabs .tablets-mobiles-tab{
-      display: block;
-    }
-    #multimedia-photos .tabs .videos h6{
-      color: black;
-    }
-    #multimedia-photos .tabs{
-    margin-left: 300px;
-    }
-    #multimedia-photos .prev-next{
-      position: absolute;
-      top: 270px;
-    }
-    #multimedia-photos .back-to-home{
-      position: absolute;
-      top: 340px;
-    }
-    #multimedia-photos .black-footer{
-      padding-bottom: 30px;
-    }
-}
-@media screen and (max-width:778px){
-
+  #multimedia-photos .glyphicon-remove:before {
+    color: white;
+  }
+  #multimedia-photos .glyphicon-menu-hamburger:before {
+    color: white;
+  }
+  .photos-page {
+    height: auto;
+  }
+  .photos-page .page-content{
+    background-image: none;
+  }
+  .photos-page .image-preview {
+    height: 300px;
+    background-size: cover;
+  }
+  .photos-page .footer {
+    bottom: auto;
+  }
+  .photos-page .footer a {
+    color: black;
+  }
   #multimedia-photos .description-container {
-    margin-top: 30px;
+    height: auto;
+  }
+  #multimedia-photos .description-container {
+    overflow: visible;
+    height: auto;
+  }
+  #multimedia-photos .hidden {
+    display: none;
+  }
+  #multimedia-photos .description-container {
+    margin-top: 150px;
   }
   #multimedia-photos .description-container .photo-title {
     font-size: 20px;
     width: 20em;
   }
-
   #multimedia-photos .description-container .photo-content {
     font-size: 16px;
     margin-bottom: 20px;
     width: 30em;
   }
-  #multimedia-photos .tabs .desktop-tab{
+  #multimedia-photos .tabs .desktop-tab {
     display: none;
   }
-  #multimedia-photos .tabs .tablets-mobiles-tab{
+  #multimedia-photos .tabs .tablets-mobiles-tab {
     display: block;
   }
-  #multimedia-photos .tabs .videos h6{
+  #multimedia-photos .tabs .videos h6 {
     color: black;
   }
-  /* #multimedia-photos .tabs{
-  margin-left: 300px;
-  } */
+  #multimedia-photos .page-content .tabs {
+    margin-left: 300px;
+  }
+  #multimedia-photos .prev-next {
+    position: absolute;
+    top: 270px;
+  }
+  #multimedia-photos .black-footer {
+    padding-bottom: 30px;
+  }
 }
-@media screen and (max-width:1220px){
 
+/* 110% screens style begins */
+
+@media screen and (max-width:1220px) {
   #multimedia-photos .description-container {
     margin-top: 130px;
   }
 }
+
+/* 110% screens style ends */
+
+/* mobile screens style begins */
+
+@media screen and (max-width:767px) {
+  #multimedia-photos .description-container {
+    margin-top: 100px;
+  }
+  #multimedia-photos .page-content .tabs {
+    margin-left: 230px;
+  }
+  #multimedia-photos .glyphicon-remove:before {
+    color: white;
+  }
+  #multimedia-photos .glyphicon-menu-hamburger:before {
+    color: white;
+  }
+  #multimedia-photos .description-container .photo-title {
+    font-size: 20px;
+    width: 20em;
+  }
+  #multimedia-photos .description-container .photo-content {
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 30em;
+  }
+  #multimedia-photos .tabs .desktop-tab {
+    display: none;
+  }
+  #multimedia-photos .tabs .tablets-mobiles-tab {
+    display: block;
+  }
+  #multimedia-photos .tabs .videos h6 {
+    color: black;
+  }
+}
+@media screen and (max-width:512px){
+  #multimedia-photos .page-content .tabs{
+    margin-left: 100px;
+  }
+}
+/* mobile screens style ends */
+
 /* media query part ends */
