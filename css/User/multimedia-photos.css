@@ -28,7 +28,8 @@
   right: -30px;
   z-index: 200;
 }
-.photos-page .page-content{
+
+.photos-page .page-content {
   background-image: url("../../img/photo-1481501940778-c8bb63e376c5.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -36,18 +37,21 @@
   padding-right: 0;
   height: 100%;
 }
-.photos-page .white-background{
+
+.photos-page .white-background {
   background-color: white;
   z-index: 10;
   width: 85%;
   height: 100%;
 }
+
 .photos-page .page-content .overlay {
   height: 100%;
-  background-color: rgba(225,225, 225, 0.6);
+  background-color: rgba(225, 225, 225, 0.6);
   bottom: 0;
   color: white;
 }
+
 /* side navigation style ends */
 
 /* image-preview style begins */
@@ -82,10 +86,11 @@
 
 /* navbar style begins */
 
-#multimedia-photos .glyphicon-remove:before{
+#multimedia-photos .glyphicon-remove:before {
   color: white;
 }
-#multimedia-photos .glyphicon-menu-hamburger:before{
+
+#multimedia-photos .glyphicon-menu-hamburger:before {
   color: #2f2f2f;
 }
 
@@ -300,10 +305,12 @@
 /* previous and next style ends */
 
 /* side photo style begins */
-#multimedia-photos .low-opacity-photo{
+
+#multimedia-photos .low-opacity-photo {
   width: 100%;
   height: 100%;
 }
+
 /* side photo style ends */
 
 /* custom padding classes style begins */
@@ -320,6 +327,16 @@
 
 /* media query part begins  */
 
+/* 110% screens style begins */
+
+@media screen and (max-width:1220px) {
+  #multimedia-photos .description-container {
+    margin-top: 130px;
+  }
+}
+
+/* 110% screens style ends */
+
 /*Tablets screens begins*/
 
 @media( max-width: 991px) {
@@ -332,7 +349,7 @@
   .photos-page {
     height: auto;
   }
-  .photos-page .page-content{
+  .photos-page .page-content {
     background-image: none;
   }
   .photos-page .image-preview {
@@ -388,16 +405,6 @@
   }
 }
 
-/* 110% screens style begins */
-
-@media screen and (max-width:1220px) {
-  #multimedia-photos .description-container {
-    margin-top: 130px;
-  }
-}
-
-/* 110% screens style ends */
-
 /* mobile screens style begins */
 
 @media screen and (max-width:767px) {
@@ -432,11 +439,13 @@
     color: black;
   }
 }
-@media screen and (max-width:512px){
-  #multimedia-photos .page-content .tabs{
+
+@media screen and (max-width:512px) {
+  #multimedia-photos .page-content .tabs {
     margin-left: 100px;
   }
 }
+
 /* mobile screens style ends */
 
 /* media query part ends */

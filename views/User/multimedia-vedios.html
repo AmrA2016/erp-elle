@@ -23,6 +23,9 @@
   <link rel="stylesheet" href="../../css/Global/owl.carousel.min.css">
   <link rel="stylesheet" href="../../css/Global/owl.theme.default.min.css">
 
+  <!-- navbar style link -->
+  <link rel="stylesheet" type="text/css" href="../../css/User/home-page.css">
+
   <!-- page style link -->
   <link rel="stylesheet" type="text/css" href="../../css/User/multimedia-videos.css">
 
@@ -32,8 +35,43 @@
 
   <div class="container-fluid">
     <div id="multimedia-videos" class="row videos-page">
+      <!--NAVBAR-->
+      <div class="header">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="col-md-10 col-sm-10 col-xs-10">
+                      <div class="logo">
+                          <!-- <img src="../../img/logo.png" alt=""> -->
+                          <span class="logo-left">LE</span><span class="logo-right">LE</span>
+                      </div>
+                  </div>
+                  <div class="col-md-2 col-sm-10 col-xs-2 nav-btn">
+                      <div class="menu-icon pull-right">
+                          <span class="glyphicon glyphicon-menu-hamburger triggreMenu" aria-hidden="true"></span>
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="right-menu text-center">
+          <div class="menu">
+              <ul class="list-unstyled">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">New</a></li>
+                  <li><a href="#">Offers</a></li>
+                  <li><a href="#">How to use</a></li>
+                  <li><a href="#">Terms &amp; Coniditions</a></li>
+                  <li><a href="#">Multi Media</a></li>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Contact us</a></li>
+              </ul>
+          </div>
+      </div>
+      <!--END NAVBAR-->
+
       <!-- page content begins -->
-      <div class="page-content" title="Multimedia">
+      <div class="page-content col-md-12 col-sm-12 col-xs-12" title="Multimedia">
         <!-- logo part begins  -->
         <div class="logo">
           <span class="logo-left">LE</span><span class="logo-right">LE</span>
@@ -41,27 +79,29 @@
         <!-- logo part ends  -->
 
         <!-- tabs part begins -->
-        <div class="tabs col-md-4 col-md-push-5 no-padding-left">
-          <div class="col-md-2">
+        <div class="tabs col-md-6 col-md-push-5 col-sm-push-4 col-xs-push-4 col-sm-6 col-xs-6 no-padding-left">
+          <div class="col-md-2 col-xs-3 col-sm-3">
             <a class="videos"><h6>VIDEOS</h6></a>
           </div>
-          <div class="col-md-2 col-md-push-1">
+          <div class="col-md-3 col-xs-3 col-sm-3 col-sm-push-3 col-xs-push-3 col-md-push-1">
             <a class="photos"><h6>PHOTOS</h6></a>
           </div>
         </div>
         <!-- tabs part ends -->
 
       <!-- video description part begins -->
-        <div class="video-preview col-md-6 col-md-push-5 no-padding-right">
+        <div class="video-preview col-md-6 col-sm-12 col-xs-12 col-md-push-6 no-padding-right">
+          <div class="col-md-9">
             <span class="glyphicon glyphicon-play play-icon"></span>
             <span id="video-duration">03:00</span>
             <p class="video-name">
               Lorem Ipsum is simply dummy
             </p>
             <span id="video-date">20/03/18</span>
+          </div>
 
             <!-- video slider begins -->
-            <div class="video-slider">
+            <div class="video-slider col-md-9 col-sm-12 col-xs-12">
               <div class="owl-carousel owl-theme">
                 <div class="owl-item">
                   <div class="frame">
@@ -146,6 +186,10 @@
 <script src="../../js/Global/owl.carousel.js"></script>
 <script type="text/javascript" src="../../js/User/custom.js"></script>
 
+<!-- navbar scripts -->
+<script src="../../js/User/home-page.js"></script>
+
+<!-- calling owl slider function -->
 <script type="text/javascript">
   $(document).ready(function() {
     $('.video-slider .owl-carousel').owlCarousel({
