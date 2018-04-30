@@ -5,7 +5,7 @@ import './SideContent.css';
 const sideContent = (props) => {
   return (
     <div className="col-md-6 content-container" title={props.side_title}>
-        <Paragraph content={props.content}/>
+        <Paragraph content={props.content}>{props.children}</Paragraph>
     </div>
   );
 };
