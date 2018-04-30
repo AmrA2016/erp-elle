@@ -1,0 +1,69 @@
+/* video slider owl carousel style begins */
+.owl-nav {
+  text-align: left !important;
+}
+.owl-dots {
+  display: none;
+}
+.owl-carousel .owl-item {
+  width: 100%;
+  height: 100%;
+}
+.owl-carousel {
+  margin-top: 30px;
+}
+
+.owl-carousel .owl-item img {
+  width: 90%;
+  height: 10%;
+}
+.owl-carousel .owl-prev {
+  position: absolute;
+  top: 30%;
+  left: 62%;
+}
+
+.owl-carousel .owl-next {
+  position: absolute;
+  top: 30%;
+  left: 14%;
+}
+.owl-carousel .disabled {
+  display: none;
+}
+
+.owl-theme .owl-controls .owl-nav .disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.owl-carousel .owl-item img {
+  opacity: 0.7;
+}
+.owl-carousel .last-item img {
+  opacity: 0.3;
+}
+.owl-carousel .owl-item p, .owl-carousel .owl-item span {
+  margin-bottom: 0;
+  width: 17em;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  color: black;
+  font-size: 12px;
+}
+
+.owl-carousel .owl-item p span {
+  margin-left: 15px;
+}
+
+.owl-carousel .owl-next,.owl-carousel .owl-prev {
+  background-color: transparent;
+  font-family: 'Abril Fatface';
+  font-style: italic;
+  color: white;
+  font-size: 20px;
+}
+.owl-theme .owl-nav .owl-next:hover, .owl-theme .owl-nav .owl-prev:hover{
+  color: white;
+}
+
+/* video slider owl carousel style ends */
