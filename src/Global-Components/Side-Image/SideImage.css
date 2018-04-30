@@ -1,5 +1,5 @@
 
-.about-terms .image-preview {
+ .image-preview {
     padding-left: 0;
     padding-right: 0;
     height: 100%;
@@ -9,7 +9,7 @@
 
 }
 
-.about-terms .image-preview .overlay {
+ .image-preview .overlay {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.30);
     bottom: 0;

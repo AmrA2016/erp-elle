@@ -6,7 +6,12 @@
 .offers .row{
     height: 100%;
 }
-.offers .container-fluid{
-     margin-top: 180px;
+
+.offers .content-container .content {
+    margin-top: 180px;
     height: 60%;
+}
+
+.offers .content-container .content {
+    height: 50%;
 }
