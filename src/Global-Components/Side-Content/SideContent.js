@@ -4,19 +4,22 @@ import Title from './Content/Title/Title'
 import './SideContent.css';
 
 const sideContent = (props) => {
+    let title = null;
+    if(props.hasTitle)
+    {
+        title = (
+            <Title
+                ownerImagePath={props.ownerImagePath}
+                ownerName={props.ownerName}
+                titleBody={props.titleBody}
+            />
+        );
+    }
   return (
-<<<<<<< HEAD
     <div className="col-md-6 content-container">
-        <Title
-            ownerImagePath={props.ownerImagePath}
-            ownerName={props.ownerName}
-            titleBody={props.titleBody}
-        />
+        {title}
         <Paragraph content={props.content}/>
-=======
-    <div className="col-md-6 content-container" title={props.side_title}>
-        <Paragraph content={props.content}>{props.children}</Paragraph>
->>>>>>> 85a717f6fd3455dc6caa76d9fbe3f0531ea37e30
+        {props.children}
     </div>
   );
 };
