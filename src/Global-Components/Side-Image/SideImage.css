@@ -1,0 +1,19 @@
+
+.about-terms .image-preview {
+    padding-left: 0;
+    padding-right: 0;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url('pexels-photo-2616812.jpg');
+
+}
+
+.about-terms .image-preview .overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.30);
+    bottom: 0;
+    color: white;
+    padding-top: 15px;
+    padding-left: 35px;
+}

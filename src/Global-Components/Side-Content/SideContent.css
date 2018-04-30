@@ -1,0 +1,38 @@
+.content-container {
+    padding-left: 100px;
+    padding-right: 140px;
+    height: 100%;
+}
+
+.content-container:before {
+    position: absolute;
+    content: '';
+    top: 20%;
+    right: 80px;
+    height: 75vh;
+    width: 1px;
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.content-container:after {
+    position: absolute;
+    content: "   " attr(title) "   ";
+    white-space: pre;
+    top: 70%;
+    right: 30px;
+    color: black;
+    text-decoration: line-through;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 15px;
+    transform: rotate(-90deg);
+    text-transform: uppercase;
+
+}
+
+#news .content-container{
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
