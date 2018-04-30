@@ -3,7 +3,7 @@ import SideImage from '../../Global-Components/Side-Image/SideImage';
 import SideContent from '../../Global-Components/Side-Content/SideContent'
 import './News.css';
 
-class AboutTerms extends Component {
+class News extends Component {
     state = {
         id: 'news',
         image: 'https://i.imgur.com/yxEuZMv.png',
@@ -33,4 +33,4 @@ class AboutTerms extends Component {
     }
 }
 
-export default AboutTerms;
+export default News;
