@@ -6,3 +6,8 @@
 .about-terms .row{
     height: 100%;
 }
+
+#terms-conditions .content-container .content {
+    margin-top: 180px;
+    height: 60%;
+}

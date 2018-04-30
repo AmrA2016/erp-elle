@@ -2,8 +2,11 @@ import React from 'react';
 import './SideImage.css';
 
 const sideImage = (props) => {
+    let style ={
+      backgroundImage : `url(${props.image})`
+    };
     return(
-        <div className="col-md-6 image-preview">
+        <div className="col-md-6 image-preview" style={style}>
             <div className="overlay">
 
             </div>
