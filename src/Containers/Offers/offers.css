@@ -1,17 +1,17 @@
-.about-terms {
+.offers {
     background-color: white;
     height: 100vh;
 }
 
-.about-terms .row{
+.offers .row{
     height: 100%;
 }
 
-#terms-conditions .content-container .content {
+.offers .content-container .content {
     margin-top: 180px;
     height: 60%;
 }
 
-#about-us .content-container .content {
+.offers .content-container .content {
     height: 50%;
 }

@@ -7,7 +7,7 @@ const paragraph = (props) => {
             <p>
                 {props.content}
             </p>
-
+            {props.children}
         </div>
     )
 };
