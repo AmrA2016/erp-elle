@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
+import Videos from './Containers/Videos/videos.js'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <p>Just Test </p>
-      </div>
+       <Videos />
     );
   }
 }
