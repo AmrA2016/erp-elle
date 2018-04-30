@@ -1,11 +1,19 @@
 import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'
-import Videos from './Containers/Videos/videos.js'
+
+import 'font-awesome/css/font-awesome.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import AboutTerms from './Containers/About-Terms/AboutTerms';
+import Offers from './Containers/Offers/Offers';
+import Videos from './Containers/Videos/videos.js';
+import News from './Containers/News/News'
+
 
 class App extends Component {
   render() {
     return (
-       <Videos />
+        <div className="App">
+            <News/>
+        </div>
     );
   }
 }

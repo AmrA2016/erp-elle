@@ -9,7 +9,6 @@ const title = (props) => {
             ownerImagePath={props.ownerImagePath}
             ownerName={props.ownerName}
         />
-
         <TitleBody titleBody={props.titleBody}/>
     </div>
 };
