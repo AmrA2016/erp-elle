@@ -9,6 +9,7 @@ class AboutTerms extends Component {
         image: 'https://i.imgur.com/USjUi0h.jpg',
         page_title: 'Terms & Conditions',
         side_title: 'Terms',
+        hasTitle: false,
         content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui natus quas eaque culpa quod ipsa' +
         ' dolorum minima dignissimos quasi deleniti. Reprehenderit ab, commodi vel iste, modi a. Odio, dolores, qui?' +
         ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui natus quas eaque culpa quod ipsa dolorum minima ' +
@@ -28,6 +29,7 @@ class AboutTerms extends Component {
                     <SideContent page_title={this.state.page_title}
                                  side_title={this.state.side_title}
                                  content={this.state.content}
+                                 hasTitle={this.state.hasTitle}
                     />
                 </div>
             </div>

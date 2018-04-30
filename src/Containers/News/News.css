@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif !important;
 }
 
 #news .col-md-12:first-child{
     padding-left: 0px;
-    display: flex;
+    display: flex ;
 }
 
 #news .image-container{
@@ -44,6 +44,21 @@ body{
     font-size: 18px;
     margin-bottom: 25px;
     font-weight: 300;
+}
+
+#news .content-container .know-more{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+#news .content-container .know-more:hover{
+    text-decoration: underline;
+}
+
+#news .content-container .know-more-container{
+    margin-bottom: 50px;
 }
 
 #news .content-container .know-more{

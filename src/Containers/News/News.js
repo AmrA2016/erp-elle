@@ -6,15 +6,18 @@ import './News.css';
 class News extends Component {
     state = {
         id: 'news',
+        hasTitle:true,
+        side_title:'News',
         image: 'https://i.imgur.com/yxEuZMv.png',
         ownerImagePath:'https://i.imgur.com/9MckoMH.png',
         ownerName:'MATTHEW KANE',
         titleBody:'Lorem Ipsum is simply dummy text',
-        content: 'Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy text of the printing and typesettin'
+        content: 'Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy text of the printing and typesettin',
+        line_image_link:'https://i.imgur.com/h2oyuwZ.png'
     };
     render() {
         return (
-            <div id={this.state.id+"-container"} className="about-terms container-fluid">
+            <div id={this.state.id+"-container"}>
                 <div className="container-fluid">
                     <div className='row' id={this.state.id}>
                         <div className='col-md-12'>
@@ -23,7 +26,14 @@ class News extends Component {
                                          ownerImagePath={this.state.ownerImagePath}
                                          ownerName={this.state.ownerName}
                                          titleBody={this.state.titleBody}
-                            />
+                                         hasTitle={this.state.hasTitle}
+                                         side_title={this.state.side_title}
+                            >
+                                <div className="pull-right know-more-container">
+                                    <a className="know-more" href="#">KNOW MORE</a>
+                                    <img src={this.state.line_image_link}/>
+                                </div>
+                            </SideContent>
                         </div>
                     </div>
                 </div>
