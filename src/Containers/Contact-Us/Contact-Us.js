@@ -1,28 +1,30 @@
 import React, { Component } from 'react';
 import SideImage from '../../Global-Components/Side-Image/SideImage';
-import SideContent from '../../Global-Components/Side-Content/SideContent'
 import Header from '../../Global-Components/Side-Content/Header/Header'
 
 import './Contact-Us.css'
 import '../About-Terms/about-terms.css'
 import '../../Global-Components/Side-Content/SideContent.css';
-
+import Navbar from '../../Global-Components/Navbar/Navbar';
+import Footer from '../../Global-Components/Footer/Footer';
+import SideContent from '../../Global-Components/Side-Content/SideContent';
 
 class Contact_Us extends Component {
     state = {
         id: 'contact-us',
         image: 'https://i.imgur.com/USjUi0h.jpg',
         page_title: ['Contact',<br/>, 'US'],
-        side_title: 'CONTACT' ,
-        
+        side_title: 'CONTACT' 
     };
     render() {
         return (
             <div id={this.state.id} className="about-terms row">        
+                <Navbar/>
                 <SideImage image={this.state.image}/>
-                <div className="col-md-6 content-container" title={this.side_title}>
-                    <Header title={this.state.page_title}/>
-                        
+                <SideContent 
+                    side_title={this.state.side_title}
+                    header={this.state.page_title} >                    
+                    
                     <div className="content">
                         <form action="#">
                             <div className="contact-us-title">NAME</div>
@@ -60,9 +62,10 @@ class Contact_Us extends Component {
 
                             
                         </form>
+                        
                     </div>
-                </div>
-                    
+                    </SideContent>                                
+                <Footer/>
             </div>
         );
     }
