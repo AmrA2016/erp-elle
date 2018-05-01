@@ -10,6 +10,7 @@ const sideImage = (props) => {
             <div className="overlay">
 
             </div>
+            {props.children}
         </div>
     )
 };

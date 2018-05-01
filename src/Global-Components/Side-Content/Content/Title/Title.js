@@ -5,7 +5,7 @@ import TitleHeader from './TitleHeader/TitleHeader';
 
 const title = (props) => {
     return(
-        <div>
+        <div className='titleContainer'>
             <TitleHeader
                 ownerImagePath={props.ownerImagePath}
                 ownerName={props.ownerName}

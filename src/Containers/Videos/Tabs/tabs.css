@@ -1,0 +1,31 @@
+/* tabs style begins */
+
+.tabs {
+    position: absolute;
+    top: 25px;
+    z-index: 12;
+}
+
+.tabs .videos {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tabs .photos {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.tabs h6 {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Abril Fatface';
+    font-style: italic;
+}
+
+.tabs .photos, .tabs .videos{
+    color: white;
+}
+
+/* tabs style ends */

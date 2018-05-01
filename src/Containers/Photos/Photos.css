@@ -1,0 +1,84 @@
+body{
+    overflow-x: hidden;
+}
+
+
+#photos {
+    background-color: white;
+    height: 100vh;
+}
+
+#photos .row{
+    height: 100%;
+}
+
+
+#photos .menu-icon {
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+#photos .menu-icon .glyphicon-menu-hamburger {
+    color: black;
+}
+
+
+#photos .menu-icon .glyphicon-remove {
+    color: white;
+}
+
+#photos .titleContainer{
+    margin-top: 100px;
+
+}
+
+#photos .titleContainer .page-title-body{
+    font-size: 30px;
+}
+
+#photos .footer {
+    padding-left: 30px;
+    height: 5%;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+}
+
+#photos .footer a {
+    color: white;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+#photos .footer a:hover {
+    color: #c6c6c6;
+}
+
+#photos .content-container:after{
+    right: 30px;
+}
+
+#photos .tabs{
+    left: 85%;
+}
+
+#photos .tabs .photos{
+    color: black;
+}
+
+
+#photos .tabs .photos:before{
+    position: absolute;
+    content: "";
+    left: 10px;
+    top: 50%;
+    right: 0;
+    border-top: 1px solid;
+    border-color: black;
+    -webkit-transform: rotate(36deg);
+    -moz-transform: rotate(36deg);
+    -ms-transform: rotate(36deg);
+    -o-transform: rotate(36deg);
+    transform: rotate(25deg);
+    z-index: 5;
+}

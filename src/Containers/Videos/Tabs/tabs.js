@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './tabs.css'
 
 const tabs = ()=>{
   return(<div class="tabs col-md-6 col-md-push-5 col-sm-push-4 col-xs-push-4 col-sm-6 col-xs-6 no-padding-left">
