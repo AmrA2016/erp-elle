@@ -1,0 +1,35 @@
+/* video description style begins */
+
+.video-preview {
+  margin-top: 190px;
+  z-index: 10;
+}
+
+.video-preview .play-icon {
+  color: white;
+  font-size: 60px;
+}
+
+.video-preview .video-name {
+  font-size: 38px;
+  font-family: 'Abril Fatface';
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.063;
+  width: 11em;
+  margin-left: 7px;
+}
+
+.video-preview #video-duration {
+  color: white;
+  margin-left: 203px;
+  font-family: 'Abril Fatface';
+}
+
+.video-preview #video-date {
+  color: white;
+  padding-left: 8px;
+  font-family: 'Abril Fatface';
+}
+
+/* video description style ends */

@@ -17,3 +17,22 @@
     padding-top: 15px;
     padding-left: 35px;
 }
+
+ #news .image-container{
+    padding-left: 0px;
+    /*background-image: url('../images/blonde2.png');*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: 30%;
+ }
+
+ #news .image-container img{
+    width: 100%;
+ }
+
+ @media(max-width: 990px) {
+    #news .image-container{
+       height: 300px;
+    }
+ }
