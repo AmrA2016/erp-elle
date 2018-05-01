@@ -3,9 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="35a1383d-ab89-470c-946f-b1e355167c21" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Containers/Videos/Content/css/video-details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Containers/Videos/Content/video-details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Containers/Videos/Tabs/tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Containers/Videos/css/videos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Containers/Videos/img/the-digital-marketing-collaboration-481322-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Global-Components/Side-Content/Slider/img/photo-1493235431945-90c060301e41.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Containers/About-Terms/AboutTerms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/About-Terms/AboutTerms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/News/News.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/News/News.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/News/News.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/News/News.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Containers/Offers/Offers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Offers/Offers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/Videos/videos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Videos/videos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Paragraph/Paragraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Paragraph/Paragraph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Paragraph/paragraph.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Paragraph/paragraph.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/Title.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleBody/TitleBody.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleBody/TitleBody.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleBody/TitleBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleBody/TitleBody.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleHeader/TitleHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleHeader/TitleHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Global-Components/Side-Content/SideContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Global-Components/Side-Content/SideContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Global-Components/Side-Content/Slider/css/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Global-Components/Side-Content/Slider/css/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Global-Components/Side-Content/Slider/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Global-Components/Side-Content/Slider/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Global-Components/Side-Image/SideImage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Global-Components/Side-Image/SideImage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Global-Components/Side-Image/SideImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Global-Components/Side-Image/SideImage.js" afterDir="false" />
     </list>
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,97 +35,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AboutTerms.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Containers/About-Terms/AboutTerms.js">
+      <file leaf-file-name="News.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Containers/News/News.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+            <state relative-caret-position="399">
+              <caret line="33" column="74" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about-terms.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Containers/About-Terms/about-terms.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Offers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Containers/Offers/Offers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="30" column="61" lean-forward="true" selection-start-line="30" selection-start-column="61" selection-end-line="31" selection-end-column="63" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SideImage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Image/SideImage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SideImage.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Image/SideImage.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Paragraph.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Paragraph/Paragraph.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,11 +50,77 @@
       <file leaf-file-name="SideContent.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/SideContent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="380">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SideImage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Image/SideImage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TitleHeader.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleHeader/TitleHeader.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TitleHeader.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleHeader/TitleHeader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Paragraph.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Paragraph/Paragraph.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paragraph.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Paragraph/paragraph.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -131,10 +133,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Global-Components/Side-Content/SideContent.js" />
         <option value="$PROJECT_DIR$/src/Containers/Offers/Offers.js" />
         <option value="$PROJECT_DIR$/src/Containers/About-Terms/AboutTerms.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/Title.js" />
+        <option value="$PROJECT_DIR$/src/Global-Components/Side-Image/SideImage.js" />
+        <option value="$PROJECT_DIR$/src/Global-Components/Side-Image/SideImage.css" />
+        <option value="$PROJECT_DIR$/src/Containers/News/News.css" />
+        <option value="$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleBody/TitleBody.css" />
+        <option value="$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleBody/TitleBody.js" />
+        <option value="$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleHeader/TitleHeader.js" />
+        <option value="$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Paragraph/Paragraph.js" />
+        <option value="$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Paragraph/paragraph.css" />
+        <option value="$PROJECT_DIR$/src/Global-Components/Side-Content/SideContent.js" />
+        <option value="$PROJECT_DIR$/src/Containers/News/News.js" />
       </list>
     </option>
   </component>
@@ -143,6 +155,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -154,36 +169,95 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="react-phase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-phase" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-elle-react-phase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp-elle-react-phase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="react-phase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-phase" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-elle-react-phase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp-elle-react-phase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="react-phase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-phase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-phase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-phase" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-elle-react-phase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp-elle-react-phase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Containers" type="462c0819:PsiDirectoryNode" />
-              <item name="About-Terms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erp-elle-react-phase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp-elle-react-phase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Containers" type="462c0819:PsiDirectoryNode" />
+              <item name="News" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erp-elle-react-phase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp-elle-react-phase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Global-Components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erp-elle-react-phase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp-elle-react-phase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Global-Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Side-Content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erp-elle-react-phase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp-elle-react-phase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Global-Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Side-Content" type="462c0819:PsiDirectoryNode" />
+              <item name="Content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erp-elle-react-phase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp-elle-react-phase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Global-Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Side-Content" type="462c0819:PsiDirectoryNode" />
+              <item name="Content" type="462c0819:PsiDirectoryNode" />
+              <item name="Paragraph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erp-elle-react-phase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp-elle-react-phase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Global-Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Side-Content" type="462c0819:PsiDirectoryNode" />
+              <item name="Content" type="462c0819:PsiDirectoryNode" />
+              <item name="Title" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erp-elle-react-phase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp-elle-react-phase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Global-Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Side-Content" type="462c0819:PsiDirectoryNode" />
+              <item name="Content" type="462c0819:PsiDirectoryNode" />
+              <item name="Title" type="462c0819:PsiDirectoryNode" />
+              <item name="TitleBody" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erp-elle-react-phase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp-elle-react-phase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Global-Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Side-Content" type="462c0819:PsiDirectoryNode" />
+              <item name="Content" type="462c0819:PsiDirectoryNode" />
+              <item name="Title" type="462c0819:PsiDirectoryNode" />
+              <item name="TitleHeader" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,36 +292,207 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21598000" />
+    <option name="totallyTimeSpent" value="23989000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.24963397" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.2490392" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info id="npm" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="6" />
-      <window_info id="npm" order="0" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info id="npm" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.24963397" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info id="Favorites" order="1" side_tool="true" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleHeader/TitleHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleHeader/TitleHeader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleBody/TitleBody.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleHeader/TitleHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Containers/About-Terms/about-terms.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Paragraph/paragraph.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Paragraph/Paragraph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Slider/slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/SideContent.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleHeader/TitleHeader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleBody/TitleBody.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Image/SideImage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Image/SideImage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Containers/About-Terms/AboutTerms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="30" column="22" selection-start-line="27" selection-start-column="20" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/Title.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/SideContent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/Title.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -337,54 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleHeader/TitleHeader.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleBody/TitleBody.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleBody/TitleBody.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/Title.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleHeader/TitleHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Paragraph/paragraph.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Slider/slider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -403,33 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Image/SideImage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Image/SideImage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Paragraph/Paragraph.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -454,16 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/SideContent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Containers/Offers/Offers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -474,20 +634,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/Title.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Containers/About-Terms/AboutTerms.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        <state relative-caret-position="308">
+          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="67" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Image/SideImage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Image/SideImage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleBody/TitleBody.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleBody/TitleBody.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleHeader/TitleHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state relative-caret-position="247">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Containers/News/News.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Title/TitleHeader/TitleHeader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Paragraph/paragraph.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/Content/Paragraph/Paragraph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Global-Components/Side-Content/SideContent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Containers/News/News.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="33" column="74" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

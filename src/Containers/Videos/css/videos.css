@@ -1,0 +1,103 @@
+/* setting videos page */
+
+.videos-page {
+  /* Full height */
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* page content style begins */
+
+.videos-page .page-content {
+  background-image: url('../img/the-digital-marketing-collaboration-481322-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* overlay on page content */
+
+.page-content>.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* side navigation style begins */
+
+.videos-page .page-content:before {
+  position: absolute;
+  content: '';
+  top: 20%;
+  right: 80px;
+  height: 75vh;
+  width: 1px;
+  border-right: 1px solid white;
+}
+
+.videos-page .page-content:after {
+  position: absolute;
+  content: "   " attr(title) "   ";
+  white-space: pre;
+  top: 47%;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 20px;
+  transform: rotate(-90deg);
+  text-transform: uppercase;
+  right: -8px;
+  z-index: 10;
+}
+
+/* side navigation style ends */
+/* tabs style begins */
+
+.tabs {
+  position: absolute;
+  top: 25px;
+  z-index: 12;
+}
+
+.tabs .videos {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tabs .photos {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tabs h6 {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: 'Abril Fatface';
+  font-style: italic;
+}
+
+/* diagonal strike on the video tab style*/
+
+.tabs .active:before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 55%;
+  right: 0;
+  border-top: 1px solid;
+  border-color: white;
+  -webkit-transform: rotate(36deg);
+  -moz-transform: rotate(36deg);
+  -ms-transform: rotate(36deg);
+  -o-transform: rotate(36deg);
+  transform: rotate(25deg);
+  z-index: 5;
+}
+
+/* tabs style ends */

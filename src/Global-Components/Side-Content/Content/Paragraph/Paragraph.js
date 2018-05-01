@@ -4,7 +4,7 @@ import './paragraph.css';
 const paragraph = (props) => {
     return(
         <div className="content scroll">
-            <p>
+            <p className='news-content'>
                 {props.content}
             </p>
             {props.children}
