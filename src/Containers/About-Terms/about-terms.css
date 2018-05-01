@@ -1,3 +1,22 @@
+/*COMMON STYLES*/
+body{
+    overflow-x: hidden;
+}
+
+.about-terms .menu-icon {
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.about-terms .menu-icon .glyphicon-menu-hamburger {
+    color: black;
+}
+
+
+.about-terms .menu-icon .glyphicon-remove {
+    color: white;
+}
+
 .about-terms {
     background-color: white;
     height: 100vh;
@@ -7,6 +26,25 @@
     height: 100%;
 }
 
+.about-terms .footer {
+    padding-left: 30px;
+    height: 5%;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+}
+
+.about-terms .footer a {
+    color: white;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.about-terms .footer a:hover {
+    color: #c6c6c6;
+}
+
+/*SPECIAL STYLE*/
 #terms-conditions .content-container .content {
     margin-top: 180px;
     height: 60%;
@@ -14,4 +52,89 @@
 
 #about-us .content-container .content {
     height: 50%;
+}
+
+
+@media(max-width: 991px) {
+
+    .about-terms .menu-icon {
+        padding-top: 10px;
+    }
+
+    .about-terms .right-menu {
+        width: 100%;
+    }
+
+    .menu-icon .glyphicon-menu-hamburger {
+        color: white;
+    }
+
+    .about-terms {
+        height: auto;
+    }
+
+    .about-terms .content-container {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .about-terms .content-container:before {
+        right: 40px;
+    }
+
+    .about-terms .content-container .content {
+        margin-bottom: 40px;
+    }
+
+    .about-terms .footer {
+        bottom: auto;
+    }
+
+    .about-terms .footer a {
+        color: black;
+    }
+
+    .about-terms .content-container:before {
+        height: 80%;
+    }
+
+    #about-us .content-container,
+    #terms-conditions .content-container {
+        height: auto;
+    }
+
+
+    #about-us .content-container .content,
+    #terms-conditions .content-container .content {
+        overflow: visible;
+        height: auto;
+    }
+    /*Common about-us and terms-condtions pages style END*/
+    /*About Us Custom Style*/
+    #about-us .content-container:after {
+        right: -4px;
+    }
+    #about-us .content-container .title {
+        margin-top: 30px;
+    }
+    #about-us .content-container .title:after {
+        top: 80px;
+        left: 130px;
+    }
+    /*About Us Custom Style END*/
+    /*Terms&Condtions Custom Style*/
+    #terms-conditions .content-container:after {
+        right: -3px;
+    }
+
+    #terms-conditions .content-container .desktop-title {
+        display: none;
+    }
+    #terms-conditions .content-container .mobile-title {
+        display: block;
+    }
+    #terms-conditions .content-container .content {
+        margin-top: 50px;
+    }
+    /*Terms&Condtions Custom Style END*/
 }

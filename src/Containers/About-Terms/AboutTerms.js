@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import SideImage from '../../Global-Components/Side-Image/SideImage';
-import SideContent from '../../Global-Components/Side-Content/SideContent'
+import SideContent from '../../Global-Components/Side-Content/SideContent';
+import Navbar from '../../Global-Components/Navbar/Navbar';
+import SideMenu from '../../Global-Components/SideMenu/SideMenu';
+import Footer from '../../Global-Components/Footer/Footer';
 import './about-terms.css';
 
 class AboutTerms extends Component {
@@ -24,6 +27,8 @@ class AboutTerms extends Component {
     render() {
         return (
             <div id={this.state.id} className="about-terms container-fluid">
+                <Navbar/>
+                <SideMenu/>
                 <div className="row">
                     <SideImage image={this.state.image}/>
                     <SideContent page_title={this.state.page_title}
@@ -32,6 +37,7 @@ class AboutTerms extends Component {
                                  hasTitle={this.state.hasTitle}
                     />
                 </div>
+                <Footer/>
             </div>
         );
     }

@@ -16,7 +16,7 @@ const sideContent = (props) => {
         );
     }
   return (
-    <div className="col-md-6 content-container">
+    <div className="col-md-6 content-container" title={props.side_title}>
         {title}
         <Paragraph content={props.content} />
         {props.children}

@@ -35,4 +35,13 @@
     #news .image-container{
        height: 300px;
     }
+
+     .image-preview {
+         height: 300px;
+         background-size: cover;
+     }
+
+     #news .image-preview{
+         height: 100%;
+     }
  }
