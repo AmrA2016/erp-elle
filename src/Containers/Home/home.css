@@ -1,0 +1,91 @@
+*
+Author : Mohamed Mamdouh
+Style Sheet for Home page
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+#home-page{
+  min-height: 100vh;
+  background-image: url('home-page-cover.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position-y: -19px;
+  overflow: hidden;
+}
+
+#home-page .overLay{
+  background-color: rgba(0,0,0,.2);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#home-page .content-container{
+	padding:  0 !important;
+	height: auto; 
+}
+
+#home-page .content-container:before{
+  position: absolute;
+  content: '';
+  top: 16%;
+  right: 128px;
+  height: 75vh;
+  width: 1px;
+  border-right: 1px solid rgba(82, 29, 47, .5);
+}
+
+#home-page .content-container:after{
+  position: absolute;
+  content: " Home ";
+  white-space: pre;
+  top: 24%;
+  color: rgba(255, 255, 255, .5);
+  text-decoration: line-through;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  letter-spacing: 4px;
+  font-size: 15px;
+  transform: rotate(-90deg);
+  text-transform: uppercase;
+  right: 92px;
+
+}
+
+
+
+
+#home-page .body .caption{
+  color: #fff;
+      margin-right: 56px;
+      margin-right: 40px;
+    margin-top: 130px;
+}
+
+#home-page .body .caption h3:nth-of-type(1)
+{
+  letter-spacing: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+#home-page .body .caption h3:nth-of-type(2),
+#home-page .body .caption h3:nth-of-type(3){
+  font-size: 56px;
+font-weight: bold;
+text-transform: uppercase;
+margin-bottom: 0;
+    margin-top: 0;
+        letter-spacing: 6px;
+}
