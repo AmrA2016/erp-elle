@@ -5,6 +5,7 @@ import './SideContent.css';
 
 const sideContent = (props) => {
     let title = null;
+    let content = null;
     if(props.hasTitle)
     {
         title = (
@@ -15,10 +16,15 @@ const sideContent = (props) => {
             />
         );
     }
+
+    if(props.hasContent)
+    {
+        content = <Paragraph content={props.content} />;
+    }
   return (
     <div className="col-md-6 content-container" title={props.side_title}>
         {title}
-        <Paragraph content={props.content} />
+        {content}
         {props.children}
     </div>
   );

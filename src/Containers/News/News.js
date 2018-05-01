@@ -7,6 +7,7 @@ class News extends Component {
     state = {
         id: 'news',
         hasTitle:true,
+        hasContent:true,
         side_title:'News',
         image: 'https://i.imgur.com/yxEuZMv.png',
         ownerImagePath:'https://i.imgur.com/9MckoMH.png',
@@ -27,6 +28,7 @@ class News extends Component {
                                          ownerName={this.state.ownerName}
                                          titleBody={this.state.titleBody}
                                          hasTitle={this.state.hasTitle}
+                                         hasContent={this.state.hasContent}
                                          side_title={this.state.side_title}
                             >
                                 <div className="pull-right know-more-container">

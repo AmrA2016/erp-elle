@@ -10,6 +10,7 @@ class Offers extends Component {
         page_title: ' Get 10% Off on these new services',
         side_title: 'Offers',
         hasTitle: false,
+        hasContent: true,
         content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui natus quas eaque culpa quod ipsa' +
         ' dolorum minima dignissimos quasi deleniti. Reprehenderit ab, commodi vel iste, modi a. Odio, dolores, qui?' +
         ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui natus quas eaque culpa quod ipsa dolorum minima ' +
@@ -30,6 +31,7 @@ class Offers extends Component {
                                  side_title={this.state.side_title}
                                  content={this.state.content}
                                  hasTitle={this.state.hasTitle}
+                                 hasContent={this.state.hasContent}
                     />
                 </div>
             </div>

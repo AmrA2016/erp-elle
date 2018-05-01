@@ -14,10 +14,10 @@ class Photos extends Component {
         image: 'https://i.imgur.com/USjUi0h.jpg',
         side_title: 'Photos',
         hasTitle: true,
+        hasContent: false,
         ownerImagePath:'https://i.imgur.com/9MckoMH.png',
         ownerName:'MATTHEW KANE',
-        titleBody:'Lorem Ipsum is simply dummy text',
-        content: 'Dummy data'
+        titleBody:'Lorem Ipsum is simply dummy text'
     };
 
     render() {
@@ -28,8 +28,8 @@ class Photos extends Component {
                         <Tabs/>
                     </SideImage>
                     <SideContent side_title={this.state.side_title}
-                                 content={this.state.content}
                                  hasTitle={this.state.hasTitle}
+                                 hasContent={this.state.hasContent}
                                  ownerImagePath={this.state.ownerImagePath}
                                  ownerName={this.state.ownerName}
                                  titleBody={this.state.titleBody}
