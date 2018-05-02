@@ -26,6 +26,7 @@ body{
     height: 100%;
 }
 
+
 .about-terms .footer {
     padding-left: 30px;
     height: 5%;
@@ -45,14 +46,51 @@ body{
 }
 
 /*SPECIAL STYLE*/
+/*TERMS AND CONDTIONS*/
+#terms-conditions .content-container .title{
+    padding-left: 42px;
+    line-height: 1.1em;
+}
+
+#terms-conditions .content-container .title span{
+    padding-left: 15px;
+}
+
+#terms-conditions .content-container .title:before{
+    content: '&';
+    position: absolute;
+    font-size: 72px;
+    top: 73px;
+    left: 103px;
+}
+
 #terms-conditions .content-container .content {
-    margin-top: 180px;
+    margin-top: 10px;
     height: 60%;
+}
+/*END TERM ADN CONDTIONS*/
+
+/*ABOUT US*/
+#about-us .content-container .title{
+    word-spacing: 100vw;
+    padding-left: 5px;
+}
+
+#about-us .content-container .title:after{
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-top: 4px solid black;
+    top: 120px;
+    left: 160px;
+    width: 80px;
 }
 
 #about-us .content-container .content {
-    height: 50%;
+    height: 60%;
 }
+
+/*END ABOUT US*/
 
 
 @media(max-width: 991px) {
@@ -116,10 +154,14 @@ body{
     }
     #about-us .content-container .title {
         margin-top: 30px;
+        font-size: 30px;
+        padding-left: 8px;
     }
+
     #about-us .content-container .title:after {
         top: 80px;
-        left: 130px;
+        left: 114px;
+        width: 60px;
     }
     /*About Us Custom Style END*/
     /*Terms&Condtions Custom Style*/
@@ -127,11 +169,14 @@ body{
         right: -3px;
     }
 
-    #terms-conditions .content-container .desktop-title {
-        display: none;
+    #terms-conditions .content-container .title{
+        font-size: 30px;
     }
-    #terms-conditions .content-container .mobile-title {
-        display: block;
+
+    #terms-conditions .content-container .title:before{
+        top:25px;
+        left: 70px;
+        font-size: 55px;
     }
     #terms-conditions .content-container .content {
         margin-top: 50px;
