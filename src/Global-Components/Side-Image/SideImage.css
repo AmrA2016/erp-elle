@@ -9,6 +9,10 @@
 
 }
 
+ #news .image-preview{
+     height: auto !important;
+ }
+
  .image-preview .overlay {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.30);
@@ -23,8 +27,12 @@
     /*background-image: url('../images/blonde2.png');*/
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    /*height: 100vh;*/
     background-position: 30%;
+ }
+
+ #news .overlay{
+     display: none !important;
  }
 
  #news .image-container img{
