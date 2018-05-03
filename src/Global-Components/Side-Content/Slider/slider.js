@@ -2,6 +2,7 @@ import React from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import './css/owl.theme.default.min.css'
 import './css/slider.css';
+import {Link} from 'react-router-dom';
 
 
 
@@ -18,7 +19,7 @@ const slider = (props) => {
          {
            props.items.map(
              item => {
-               return <link><div className="item owl-item">
+               return <Link to={"/videos/" + item.id}><div className="item owl-item">
                  <div className="frame">
                    <div className="video-slider-overlay">
                      <img src={item.image}/>
@@ -29,7 +30,7 @@ const slider = (props) => {
                    <span>{item.date}</span>
                  </div>
                </div>
-               </link>
+               </Link>
              }
            )
          };

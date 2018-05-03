@@ -10,7 +10,7 @@ const sideMenu = (props) => {
                     <li><Link to="/" exact>Home</Link></li>
                     <li><Link to="/news">News</Link></li>
                     <li><Link to="/offers">Offers</Link></li>
-                    <li><Link to="/multimedia">Multi Media</Link></li>
+                    <li><Link to="/multimedia-videos">Multi Media</Link></li>
                     <li><Link to="/terms-conditions">Terms &amp; Conditions</Link></li>
                     <li><Link to="/about-us">About us</Link></li>
                     <li><Link to="/contact-us">Contact us</Link></li>
