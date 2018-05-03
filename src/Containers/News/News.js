@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom'
 import SideImage from '../../Global-Components/Side-Image/SideImage';
 import SideContent from '../../Global-Components/Side-Content/SideContent';
 import Slider from "../../Global-Components/Side-Content/Slider/slider";
+import Navbar from '../../Global-Components/Navbar/Navbar';
+import SideMenu from '../../Global-Components/SideMenu/SideMenu';
+import Footer from '../../Global-Components/Footer/Footer';
 import './News.css';
 
 class News extends Component {
@@ -62,6 +65,8 @@ class News extends Component {
         return (
             <div id={this.state.id+"-container"}>
                 <div className="container-fluid">
+                   <Navbar />
+                   <SideMenu/>
                     <div className='row' id={this.state.id}>
                         <div className='col-md-12'>
                             <SideImage image={this.state.image}/>
@@ -85,6 +90,7 @@ class News extends Component {
                         </div>
                     </div>
                 </div>
+                <Footer/>
 
             </div>
         );
