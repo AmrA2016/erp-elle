@@ -26,6 +26,11 @@ class AboutTerms extends Component {
         'adipisicing elit. Qui natus quas eaque culpa quod ipsa dolorum minima dignissimos quasi deleniti. ' +
         'Reprehenderit ab, commodi vel iste, modi a. Odio, dolores, qui? '
     };
+
+    componentDidMount(){
+        console.log(this.props);
+    }
+
     render() {
         return (
             <div id={this.state.id} className="about-terms container-fluid">

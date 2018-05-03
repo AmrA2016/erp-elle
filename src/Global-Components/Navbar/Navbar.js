@@ -3,8 +3,6 @@ import React from 'react';
 import 'font-awesome/css/font-awesome.min.css'
 
 import './Navbar.css';
-
-
 import '../../Custom-Scripts/toggleMenu'
 
 const navbar = (props) => {

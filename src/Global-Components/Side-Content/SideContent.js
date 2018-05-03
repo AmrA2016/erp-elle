@@ -27,6 +27,7 @@ const sideContent = (props) => {
         content = <Paragraph content={props.content} />;
     }
   return (
+    
     <div className="col-md-6 content-container" title={props.side_title}>
         {header}
         {title}

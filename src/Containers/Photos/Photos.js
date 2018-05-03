@@ -33,7 +33,13 @@ class Photos extends Component {
                                  ownerImagePath={this.state.ownerImagePath}
                                  ownerName={this.state.ownerName}
                                  titleBody={this.state.titleBody}
-                    />
+                    >
+                      <div class="page-content col-s-12 col-sm-12 col-xs-12 col-md-2 no-padding-left no-padding-right">
+                        <div className="white-overlay">
+                          
+                        </div>
+                      </div>
+                    </SideContent>
                 </div>
             </div>
         );
