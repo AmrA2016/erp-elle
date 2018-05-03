@@ -14,12 +14,6 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 class App extends Component {
   render() {
     return (
-<<<<<<< HEAD
-        <div className="App">
-          <Photos/>
-            {/* <AboutTerms/> */}
-        </div>
-=======
         <BrowserRouter>
             <div className="App">
                 <Switch>
@@ -33,7 +27,6 @@ class App extends Component {
                 </Switch>
             </div>
         </BrowserRouter>
->>>>>>> bd10e3b40e8503f89ae4d81873a49f3526cc9523
     );
   }
 }

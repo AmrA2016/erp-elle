@@ -73,6 +73,9 @@ class Videos extends Component {
                 $('.owl-prev').css('display', 'none');
               }
             });
+        $('.owl-next').on('click', function(event){
+          $(".owl-item").click();
+        });
  }
   render() {
     return (<div className="container-fluid">

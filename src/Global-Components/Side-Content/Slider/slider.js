@@ -18,7 +18,7 @@ const slider = (props) => {
          {
            props.items.map(
              item => {
-               return <link><div className="item owl-item">
+               return <link to={"/multimedia/"+item.id}><div className="item owl-item">
                  <div className="frame">
                    <div className="video-slider-overlay">
                      <img src={item.image}/>
@@ -28,7 +28,7 @@ const slider = (props) => {
                    </p>
                    <span>{item.date}</span>
                  </div>
-               </div>
+               </div></link>
              }
            )
          }
@@ -36,13 +36,8 @@ const slider = (props) => {
      );
   }else{
     owl_items = (
-<<<<<<< HEAD
-      <OwlCarousel className="owl-carousel"  margin={20} nav={true}
-        items={2} navText={['Previous','Next']} responsiveClass={true}>
-=======
       <OwlCarousel className="owl-carousel" loop={false} margin={20} nav={true}
         items={2} navText={[`Previous`,`${line_image_link} &nbsp; &nbsp;&nbsp; Next`]} responsiveClass={true}>
->>>>>>> bd10e3b40e8503f89ae4d81873a49f3526cc9523
         {
           props.items.map(
             item => {
