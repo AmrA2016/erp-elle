@@ -20,6 +20,8 @@
     margin-bottom: 25px;
     font-weight: 300;
     text-align: left;
+    height: 130px;
+    overflow-y: scroll;
 }
 
 #news .content{
