@@ -1,12 +1,15 @@
 import React from 'react';
 import OwlCarousel from 'react-owl-carousel';
-import './css/slider.css'
+import './css/owl.theme.default.min.css'
+import './css/slider.css';
+
 
 
 
 const slider = (props) => {
   let items = props.items;
   let owl_items = null;
+  const line_image_link = `<img src=${props.line_image_link}/>`;
   if(props.hasData)
   {
      owl_items = (
@@ -33,8 +36,13 @@ const slider = (props) => {
      );
   }else{
     owl_items = (
+<<<<<<< HEAD
       <OwlCarousel className="owl-carousel"  margin={20} nav={true}
         items={2} navText={['Previous','Next']} responsiveClass={true}>
+=======
+      <OwlCarousel className="owl-carousel" loop={false} margin={20} nav={true}
+        items={2} navText={[`Previous`,`${line_image_link} &nbsp; &nbsp;&nbsp; Next`]} responsiveClass={true}>
+>>>>>>> bd10e3b40e8503f89ae4d81873a49f3526cc9523
         {
           props.items.map(
             item => {

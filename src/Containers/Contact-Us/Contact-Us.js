@@ -8,6 +8,7 @@ import '../../Global-Components/Side-Content/SideContent.css';
 import Navbar from '../../Global-Components/Navbar/Navbar';
 import Footer from '../../Global-Components/Footer/Footer';
 import SideContent from '../../Global-Components/Side-Content/SideContent';
+import SideMenu from '../../Global-Components/SideMenu/SideMenu'
 
 class Contact_Us extends Component {
     state = {
@@ -18,8 +19,10 @@ class Contact_Us extends Component {
     };
     render() {
         return (
+            
             <div id={this.state.id} className="about-terms row">        
                 <Navbar/>
+                <SideMenu/>
                 <SideImage image={this.state.image}/>
                 <SideContent 
                     side_title={this.state.side_title}

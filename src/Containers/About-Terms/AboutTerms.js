@@ -10,7 +10,8 @@ class AboutTerms extends Component {
     state = {
         id: 'terms-conditions',
         image: 'https://i.imgur.com/USjUi0h.jpg',
-        page_title: 'Terms & Conditions',
+        page_title: ['Terms',<br/>,<span>Conditions</span>],
+        // page_title: 'About Us',
         side_title: 'Terms',
         hasTitle: false,
         hasContent: true,
@@ -25,6 +26,11 @@ class AboutTerms extends Component {
         'adipisicing elit. Qui natus quas eaque culpa quod ipsa dolorum minima dignissimos quasi deleniti. ' +
         'Reprehenderit ab, commodi vel iste, modi a. Odio, dolores, qui? '
     };
+
+    componentDidMount(){
+        console.log(this.props);
+    }
+
     render() {
         return (
             <div id={this.state.id} className="about-terms container-fluid">
@@ -32,7 +38,7 @@ class AboutTerms extends Component {
                 <SideMenu/>
                 <div className="row">
                     <SideImage image={this.state.image}/>
-                    <SideContent page_title={this.state.page_title}
+                    <SideContent header={this.state.page_title}
                                  side_title={this.state.side_title}
                                  content={this.state.content}
                                  hasTitle={this.state.hasTitle}

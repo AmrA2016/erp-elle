@@ -21,3 +21,8 @@
     font-weight: 300;
     text-align: left;
 }
+
+#news .content{
+    margin-bottom: 0px !important;
+    padding: 0px !important;
+}

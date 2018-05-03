@@ -1,6 +1,6 @@
 import $ from 'jquery';
 $(function(){
-    $(".triggreMenu").on('click',function(){
+    $(document).on('click','.triggreMenu',function(){
       if($(".right-menu").css('display') == "none"){
          $(".triggreMenu").removeClass("glyphicon-menu-hamburger").addClass("glyphicon-remove");
          $(".right-menu").css('display','block');
