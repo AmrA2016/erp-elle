@@ -5,6 +5,9 @@ import './css/videos.css'
 import Video_details from './Content/video-details.js'
 import Tabs from './Tabs/tabs.js'
 import $ from 'jquery';
+import Navbar from '../../Global-Components/Navbar/Navbar'
+import SideMenu from '../../Global-Components/SideMenu/SideMenu'
+import Footer from '../../Global-Components/Footer/Footer'
 window.jQuery = $;
 window.$ = $;
 global.jQuery = $;
@@ -79,6 +82,8 @@ class Videos extends Component {
  }
   render() {
     return (<div className="container-fluid">
+      {/* <Navbar/>
+      <SideMenu/> */}
       <div id="multimedia-videos" className="row videos-page">
         <div className="page-content col-md-12 col-sm-12 col-xs-12" title="Multimedia">
           <Tabs/>
@@ -90,6 +95,7 @@ class Videos extends Component {
           </div>
           </div>
         </div>
+          <Footer/>
       </div>
     </div>);
   }
