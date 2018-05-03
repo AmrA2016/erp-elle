@@ -5,6 +5,14 @@ body{
     font-family: 'Lato', sans-serif !important;
 }
 
+#news-container{
+    position: relative;
+}
+
+#news-container .glyphicon-menu-hamburger{
+    color:black !important;
+}
+
 #news .col-md-12:first-child{
     padding-left: 0px;
     display: flex ;
