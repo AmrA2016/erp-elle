@@ -19,36 +19,32 @@ class Videos extends Component {
     duration: "03:00",
     date: "21/03/18",
     description: "Lorem Ipsum is simply dummy",
-    videos:[
+    videos: [
       {
         id: 1,
         image: "https://i.imgur.com/d0zthmZ.jpg",
         duration: "03:00",
         date: "21/03/18",
         description: "Lorem Ipsum is simply dummy"
-      },
-      {
+      }, {
         id: 2,
         image: "https://i.imgur.com/d0zthmZ.jpg",
         duration: "03:00",
         date: "21/03/18",
         description: "Lorem Ipsum is simply dummy"
-      },
-      {
+      }, {
         id: 3,
         image: "https://i.imgur.com/d0zthmZ.jpg",
         duration: "03:00",
         date: "21/03/18",
         description: "Lorem Ipsum is simply dummy"
-      },
-      {
+      }, {
         id: 4,
         image: "https://i.imgur.com/d0zthmZ.jpg",
         duration: "03:00",
         date: "21/03/18",
         description: "Lorem Ipsum is simply dummy"
-      },
-      {
+      }, {
         id: 5,
         image: "https://i.imgur.com/d0zthmZ.jpg",
         duration: "03:00",
@@ -58,28 +54,29 @@ class Videos extends Component {
     ]
   }
   componentDidMount() {
-        $('.owl-next').on('click', function(event) {
-          var currentItem = $(".video-slider .active").index();
-          var items = $(".video-slider .owl-item").length;
-          console.log(items);
-          items = (items / 2) -2;
-          if (currentItem != items) {
-            $('.owl-prev').css('display', 'none');
-          } else {
-            $('.owl-prev').css('display', 'block');
-          }
-          this.currentItem.click();
+    $('.owl-next').on('click', function(event) {
+      $(".active .owl-item").click();
+      var currentItem = $(".video-slider .active").index();
+      var items = $(".video-slider .owl-item").length;
+      items = (items / 2) - 2;
+      if (currentItem != items) {
+        $('.owl-prev').css('display', 'none');
+      } else {
+        $('.owl-prev').css('display', 'block');
+      }
 
-        });
-        $('.owl-prev').on('click', function(event) {
-              $('.owl-carousel').trigger('to.owl.carousel', [0, 0])
-              var currentItem = $(".video-slider .active").index();
-              if (currentItem == 0) {
-                $('.owl-prev').css('display', 'none');
-              }
-            });
+    });
+  
+    //
+    // $('.owl-prev').on('click', function(event) {
+    //       $('.owl-carousel').trigger('to.owl.carousel', [0, 0])
+    //       var currentItem = $(".video-slider .active").index();
+    //       if (currentItem == 0) {
+    //         $('.owl-prev').css('display', 'none');
+    //       }
+    //     });
 
- }
+  }
   render() {
     return (<div className="container-fluid">
       <Navbar/>
@@ -89,15 +86,15 @@ class Videos extends Component {
           <div className="overlay">
             <Tabs/>
             <div class="video-preview col-md-6 col-sm-12 col-xs-12 col-md-push-6 no-padding-right">
-             <Video_details duration={this.state.duration} date={this.state.date} description={this.state.description}/>
-            <div className="video-slider col-md-9">
-
-              <Slider items={this.state.videos} hasData={true}/>
-            </div>
+              <Video_details duration={this.state.duration} date={this.state.date} description={this.state.description}/>
+              <div className="video-slider col-md-9 col-sm-12 col-xs-12">
+                <Slider items={this.state.videos} hasData={true}/>
+              </div>
             </div>
           </div>
+
         </div>
-          <Footer/>
+        <Footer/>
       </div>
     </div>);
   }

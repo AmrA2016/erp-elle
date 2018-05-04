@@ -44,6 +44,7 @@ class Photos extends Component {
                         <div className="white-overlay">
 
                         </div>
+                        <Footer/>
                       </div>
                     </SideContent>
                 </div>

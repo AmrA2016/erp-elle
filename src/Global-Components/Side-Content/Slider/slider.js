@@ -15,7 +15,7 @@ const slider = (props) => {
   {
      owl_items = (
        <OwlCarousel className="owl-carousel" loop={true} margin={20} nav={true}
-         items={2} navText={['Previous','Next']} responsiveClass={true}>
+         items={2} navText={[,'Next']} slideBy={1}>
          {
            props.items.map(
              item => {
@@ -33,7 +33,7 @@ const slider = (props) => {
                </Link>
              }
            )
-         };
+         }
        </OwlCarousel>
      );
   }else{

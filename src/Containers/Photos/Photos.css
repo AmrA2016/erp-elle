@@ -120,43 +120,42 @@ body{
 }
 /* mobile screens style begins */
 
-@media screen and (max-width:767px) {
-  #photos .description-container {
-    margin-top: 100px;
+@media screen and (max-width:991px) {
+#photos .tabs{
+
+    top: 85%;
+    left: 27%;
   }
-  #photos .page-content .tabs {
-    margin-left: 230px;
-  }
-  #photos .glyphicon-remove:before {
-    color: white;
-  }
-  #photos .glyphicon-menu-hamburger:before {
-    color: white;
-  }
-  #photos .description-container .photo-title {
-    font-size: 20px;
-    width: 20em;
-  }
-  #photos .description-container .photo-content {
-    font-size: 16px;
-    margin-bottom: 20px;
-    width: 30em;
-  }
-  #photos .tabs .desktop-tab {
-    display: none;
-  }
-  #photos .tabs .tablets-mobiles-tab {
-    display: block;
-  }
-  #photos .tabs .videos h6 {
-    color: black;
-  }
+#photos .tabs .videos{
+  color: black;
+}
+#photos .page-content{
+  top:auto;
+  z-index: -100;
+}
+#photos .footer{
+  display: none;
+}
+#photos .page-content .footer{
+  display: block;
+}
 }
 
 @media screen and (max-width:512px) {
-  #photos .page-content .tabs {
-    margin-left: 100px;
-  }
+#photos .titleContainer .page-title-body{
+  font-size: 18px;
+}
+#photos .prev-next{
+  left: 5%;
+}
+#photos .content-container{
+  padding-left: 5px;
+}
+}
+@media screen and (max-width:320px){
+#photos .tabs{
+  left: 7%;
+}
 }
 
 /* mobile screens style ends */
