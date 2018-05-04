@@ -76,19 +76,38 @@ body{
 }
 
 #photos .tabs{
-    left: 85%;
+    left: 38%;
 }
 
 #photos .tabs .photos{
     color: black;
 }
 
+/* previous and next style begins */
 
+#photos .prev-next {
+  position: absolute;
+  top: 350px;
+}
+
+#photos .prev-next span, .prev-next a {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: black;
+}
+
+#photos .prev-next a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* previous and next style ends */
 #photos .tabs .photos:before{
     position: absolute;
     content: "";
     left: 10px;
-    top: 50%;
+    top: 55%;
     right: 0;
     border-top: 1px solid;
     border-color: black;
@@ -99,3 +118,47 @@ body{
     transform: rotate(25deg);
     z-index: 5;
 }
+/* mobile screens style begins */
+
+@media screen and (max-width:767px) {
+  #photos .description-container {
+    margin-top: 100px;
+  }
+  #photos .page-content .tabs {
+    margin-left: 230px;
+  }
+  #photos .glyphicon-remove:before {
+    color: white;
+  }
+  #photos .glyphicon-menu-hamburger:before {
+    color: white;
+  }
+  #photos .description-container .photo-title {
+    font-size: 20px;
+    width: 20em;
+  }
+  #photos .description-container .photo-content {
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 30em;
+  }
+  #photos .tabs .desktop-tab {
+    display: none;
+  }
+  #photos .tabs .tablets-mobiles-tab {
+    display: block;
+  }
+  #photos .tabs .videos h6 {
+    color: black;
+  }
+}
+
+@media screen and (max-width:512px) {
+  #photos .page-content .tabs {
+    margin-left: 100px;
+  }
+}
+
+/* mobile screens style ends */
+
+/* media query part ends */

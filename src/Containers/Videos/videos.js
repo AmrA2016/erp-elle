@@ -68,6 +68,8 @@ class Videos extends Component {
           } else {
             $('.owl-prev').css('display', 'block');
           }
+          this.currentItem.click();
+
         });
         $('.owl-prev').on('click', function(event) {
               $('.owl-carousel').trigger('to.owl.carousel', [0, 0])
@@ -76,23 +78,23 @@ class Videos extends Component {
                 $('.owl-prev').css('display', 'none');
               }
             });
-        $('.owl-next').on('click', function(event){
-          $(".owl-item").click();
-        });
+
  }
   render() {
     return (<div className="container-fluid">
       <Navbar/>
       <SideMenu/>
       <div id="multimedia-videos" className="row videos-page">
-        <div className="page-content col-md-12 col-sm-12 col-xs-12" title="Multimedia">
-          <Tabs/>
-          <div class="video-preview col-md-6 col-sm-12 col-xs-12 col-md-push-6 no-padding-right">
-           <Video_details duration={this.state.duration} date={this.state.date} description={this.state.description}/>
-          <div className="video-slider col-md-9">
+        <div className="page-content" title="Multimedia">
+          <div className="overlay">
+            <Tabs/>
+            <div class="video-preview col-md-6 col-sm-12 col-xs-12 col-md-push-6 no-padding-right">
+             <Video_details duration={this.state.duration} date={this.state.date} description={this.state.description}/>
+            <div className="video-slider col-md-9">
 
-            <Slider items={this.state.videos} hasData={true}/>
-          </div>
+              <Slider items={this.state.videos} hasData={true}/>
+            </div>
+            </div>
           </div>
         </div>
           <Footer/>

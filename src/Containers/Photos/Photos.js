@@ -22,11 +22,12 @@ class Photos extends Component {
     render() {
         return (
             <div id={this.state.id} className="photos container-fluid">
-              {/* <Navbar/>
-              <SideMenu/> */}
+              <Navbar/>
+              <SideMenu/>
                 <div className="row">
+                    <Tabs/>
                     <SideImage image={this.state.image}>
-                        <Tabs/>
+
                     </SideImage>
                     <SideContent side_title={this.state.side_title}
                                  hasTitle={this.state.hasTitle}
@@ -35,6 +36,10 @@ class Photos extends Component {
                                  ownerName={this.state.ownerName}
                                  titleBody={this.state.titleBody}
                     >
+                      <div class="prev-next">
+                        <a><img src={require("./img/back.png")} /><span>Previous</span></a>
+                        <a><img src={require("./img/line.png")}/><span>Next</span><img src={require("./img/next.png")}/></a>
+                      </div>
                       <div class="page-content col-s-12 col-sm-12 col-xs-12 col-md-2 no-padding-left no-padding-right">
                         <div className="white-overlay">
 
