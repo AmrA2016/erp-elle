@@ -22,8 +22,8 @@
 .offers .content-container .title {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size:40px !important;
-    line-height: 40px !important;
+    font-size:40px ;
+    line-height: 40px ;
 }
 .offers .next{
     margin-left: 25%;
@@ -83,7 +83,34 @@ h6 {
 /*.offers .imglink{
     margin-left: %;
 }*/
+
+
+@media(max-width:991px){
+    .offers .content-container {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .offers .content-container:before{
+        right: 30px;
+        height: 70%;
+    }
+
+    .offers .content-container:after{
+        right: -18px;
+    }
+
+    .offers .next{
+        margin-top: 62px!important;
+    }
+
+    .linkget{
+        font-size: 9px;
+    }
+}
+
 @media(max-width:480px){
+
     .offers .back-btn::after{
     content: none;
 
@@ -101,23 +128,18 @@ h6 {
         font-size: 9px;
     }
 .offers .content-container .title {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size:20px ;
-    line-height: 28px ;
-}
-.offers .next-img{
-    display: none;
-}
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size:30px ;
+    line-height: 30px ;
 }
 
-
-@media(max-width:991px){
-    .offers .next{
-    margin-top: 62px!important;
-}
-
- .linkget{
-        font-size: 9px;
+    .offers .content-container .page-title-body{
+        font-size: 18px;
+        word-spacing: 0.4em;
+        line-height: 1.3em;
     }
+    /*.offers .next-img{*/
+        /*display: none;*/
+    /*}*/
 }
