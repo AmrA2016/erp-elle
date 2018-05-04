@@ -64,8 +64,14 @@ h6 {
     top: 50%;
   width: 100%;
 }
-.menu-icon span{
-color: black !important;
+
+.offers .menu-icon .glyphicon-menu-hamburger {
+    color: black;
+}
+
+
+.offers .menu-icon .glyphicon-remove {
+    color: white;
 }
 
 .offers h6:before {

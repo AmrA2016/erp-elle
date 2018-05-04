@@ -14,7 +14,7 @@ class Offers extends Component {
         page_title: 'GET 10% OF THIS PRODUCT',
         side_title: 'Offers',
         hasTitle: true,
-        titleBody:'Don\'t give it a shit',
+        titleBody:'Just a testing title',
         nextofferid:2,
         hasContent: true,
         content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui natus quas eaque culpa quod ipsa' +
