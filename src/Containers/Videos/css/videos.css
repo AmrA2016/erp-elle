@@ -59,7 +59,6 @@
 
 
 /* diagonal strike on the video tab style*/
-
 .videos-page .tabs .videos:before {
   position: absolute;
   content: "";
