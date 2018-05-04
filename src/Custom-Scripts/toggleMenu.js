@@ -4,12 +4,12 @@ $(function(){
       if($(".right-menu").css('display') == "none"){
          $(".triggreMenu").removeClass("glyphicon-menu-hamburger").addClass("glyphicon-remove");
          $(".right-menu").css('display','block');
-         $('.header').css('z-index',9999);
+         $('.header').css('z-index',999);
       }
       else{
         $(".triggreMenu").removeClass("glyphicon-remove").addClass("glyphicon-menu-hamburger");
         $(".right-menu").css('display',"none");
-          $('.header').css('z-index',999);
+          $('.header').css('z-index',99);
       }
     });
 })

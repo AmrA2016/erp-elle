@@ -3,7 +3,7 @@
 .tabs {
     position: absolute;
     top: 25px;
-    z-index: 999;
+    z-index: 99;
 }
 
 .tabs .videos {
