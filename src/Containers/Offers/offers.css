@@ -1,17 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 .offers {
     background-color: white;
     height: 100vh;
 }
 
-.offers .row{
+.offers > .row{
     height: 100%;
 }
-
-.offers .content-container .content {
-    margin-top: 180px;
-    height: 60%;
+.offers .page-title-body{
+    font-size: 17px;
+    color: black;
+   	font-family: 'Lato', sans-serif !important;
+       padding-left: 2.2%;
 }
 
-.offers .content-container .content {
-    height: 50%;
+.offers .imgs{
+    margin-left: 20%;
+}
+
+.offers .content-container .title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size:40px !important;
+    line-height: 40px !important;
+}
+.offers .next{
+    margin-left: 25%;
+}
+.linkget:hover{
+    text-decoration: none;
+}
+h6 {
+  position: relative;
+  text-align: center;
+  font-family: 'Lato';
+  
+}
+
+.offers h6 span {
+  background: #fff;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+}
+.s{
+    font-weight: 700;
+}
+.s a{
+    color:black;
+}
+.s a:hover{
+    color:#c6c6c6;
+}
+
+
+.offers h6:before {
+  background: black;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+    top: 50%;
+  width: 100%;
+}
+.menu-icon span{
+color: black !important;
+}
+
+.offers h6:before {
+  left: 0;
+}
+.offers .nextlink{
+    margin-top:1.5%;
+}
+/*.offers .imglink{
+    margin-left: %;
+}*/
+@media(max-width:480px){
+    .offers .back-btn::after{
+    content: none;
+
+}
+.offers .nextlink{
+    margin-top:34%;
+}
+    .offers .page-title-body{
+    font-size: 13px;
+    color: black;
+   	font-family: 'Lato', sans-serif !important;
+       padding-left: 2.2%;
+}
+ .linkget{
+        font-size: 9px;
+    }
+.offers .content-container .title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size:20px ;
+    line-height: 28px ;
+}
+.offers .next-img{
+    display: none;
+}
+}
+
+
+@media(max-width:991px){
+    .offers .next{
+    margin-top: 62px!important;
+}
+
+ .linkget{
+        font-size: 9px;
+    }
 }
