@@ -82,8 +82,8 @@ class Videos extends Component {
  }
   render() {
     return (<div className="container-fluid">
-      {/* <Navbar/>
-      <SideMenu/> */}
+      <Navbar/>
+      <SideMenu/>
       <div id="multimedia-videos" className="row videos-page">
         <div className="page-content col-md-12 col-sm-12 col-xs-12" title="Multimedia">
           <Tabs/>
