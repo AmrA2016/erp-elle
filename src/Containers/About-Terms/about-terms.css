@@ -118,6 +118,7 @@ body{
 
     .about-terms .content-container:before {
         right: 40px;
+        height: 80%;
     }
 
     .about-terms .content-container .content {
@@ -132,9 +133,6 @@ body{
         color: black;
     }
 
-    .about-terms .content-container:before {
-        height: 80%;
-    }
 
     #about-us .content-container,
     #terms-conditions .content-container {
