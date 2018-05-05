@@ -60,29 +60,30 @@ class Videos extends Component {
 
   componentDidMount() {
     $('.owl-next').on('click', function(event) {
-
-      var currentItem = $(".video-slider .active").index();
-      var items = $(".video-slider .owl-item").length;
-      console.log(items);
-      items = (items / 2) - 2;
-      if (currentItem != items) {
-        $('.owl-prev').css('display', 'none');
-      } else {
-        $('.owl-prev').css('display', 'block');
-      }
-
+        // $('.owl-carousel').trigger('to.owl.carousel', [0, 0, true]);
+      // var currentItem = $(".video-slider .active").index();
+      // var items = $(".video-slider .owl-item").length;
+      // console.log(items);
+      // items = (items / 2) - 2;
+      // if (currentItem != items) {
+      //   $('.owl-prev').css('display', 'none');
+      // } else {
+      //   $('.owl-prev').css('display', 'block');
+      // }
+      //
       $(".video-slider .active").eq(0).children('.item').click();
 
     });
 
     //
-    // $('.owl-prev').on('click', function(event) {
+    $('.owl-prev').on('click', function(event) {
+      $(".video-slider .active").eq(0).children('.item').click();
     //       $('.owl-carousel').trigger('to.owl.carousel', [0, 0])
     //       var currentItem = $(".video-slider .active").index();
     //       if (currentItem == 0) {
     //         $('.owl-prev').css('display', 'none');
     //       }
-    //     });
+        });
 
   }
   render() {

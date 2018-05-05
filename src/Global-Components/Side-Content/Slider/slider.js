@@ -14,8 +14,8 @@ const slider = (props) => {
   if(props.hasData)
   {
      owl_items = (
-       <OwlCarousel className="owl-carousel" loop={true} margin={10} nav={true}
-         items={2} navText={[,'Next']} slideBy={1}>
+       <OwlCarousel className="owl-carousel" loop={false} margin={10} nav={true}
+         items={2} navText={['Previous','Next']} slideBy={1}>
          {
            props.items.map(
              item => {
