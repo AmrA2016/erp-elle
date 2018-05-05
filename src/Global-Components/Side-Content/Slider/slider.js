@@ -14,12 +14,12 @@ const slider = (props) => {
   if(props.hasData)
   {
      owl_items = (
-       <OwlCarousel className="owl-carousel" loop={true} margin={20} nav={true}
+       <OwlCarousel className="owl-carousel" loop={true} margin={10} nav={true}
          items={2} navText={[,'Next']} slideBy={1}>
          {
            props.items.map(
              item => {
-               return <Link to={"/multimedia-videos/" + item.id}><div className="item owl-item">
+               return <div key={item.id} className="item" onClick={() => props.change_state(item.id)}>
                  <div className="frame">
                    <div className="video-slider-overlay">
                      <img src={item.image}/>
@@ -30,7 +30,6 @@ const slider = (props) => {
                    <span>{item.date}</span>
                  </div>
                </div>
-               </Link>
              }
            )
          }
