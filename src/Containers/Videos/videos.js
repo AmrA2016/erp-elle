@@ -79,11 +79,12 @@ class Videos extends Component {
   }
   render() {
     return (<div className="container-fluid">
-      <Navbar/>
-      <SideMenu/>
+      {/*<Navbar/>*/}
+      {/*<SideMenu/>*/}
       <div id="multimedia-videos" className="row videos-page">
-        <div className="page-content" title="Multimedia">
+        <div className="page-content col-md-12 col-sm-12 col-xs-12" title="Multimedia">
           <div className="overlay">
+          </div>
             <Tabs/>
             <div class="video-preview col-md-6 col-sm-12 col-xs-12 col-md-push-6 no-padding-right">
               <Video_details duration={this.state.duration} date={this.state.date} description={this.state.description}/>
@@ -91,7 +92,6 @@ class Videos extends Component {
                 <Slider items={this.state.videos} hasData={true}/>
               </div>
             </div>
-          </div>
 
         </div>
         <Footer/>

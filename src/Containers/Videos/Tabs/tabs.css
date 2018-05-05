@@ -4,6 +4,7 @@
     position: absolute;
     top: 25px;
     z-index: 99;
+    left: 38%;
 }
 
 .tabs .videos {

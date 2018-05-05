@@ -123,8 +123,8 @@ body{
 @media screen and (max-width:991px) {
 #photos .tabs{
 
-    top: 85%;
-    left: 27%;
+    top: 40%;
+    left: 5%;
   }
 #photos .tabs .videos{
   color: black;
