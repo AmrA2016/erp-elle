@@ -7,6 +7,7 @@ import Navbar from '../../Global-Components/Navbar/Navbar';
 import SideMenu from '../../Global-Components/SideMenu/SideMenu';
 import Footer from '../../Global-Components/Footer/Footer';
 import './News.css';
+import axios from 'axios';
 
 class News extends Component {
     state = {
@@ -21,32 +22,16 @@ class News extends Component {
         content: 'Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy text of the printing and typesettin',
         showMore:'KNOW MORE',
         line_image_link:'https://i.imgur.com/h2oyuwZ.png',
-        images:[
-            {
-                id:1,
-                image:'https://i.imgur.com/OfpH4fk.png',
-                left_image: 'https://i.imgur.com/USjUi0h.jpg',
-                ownerImagePath:'https://i.imgur.com/OfpH4fk.png',
-                ownerName:'Mohamed Osman',
-                titleBody:'News Gdeda kda w 7lwa',
-                content: 'dool shwyet kalam 3shan agrb l news lma ados 3laha fe L slider hat8yr l content wla A , f insha2alah t8yr l content w mt7rgna4 odam L nas 3shan shklna myb2a4 w7eesh , zh2t mn kotr om l kalam L habal dh',
-
-
-            },
-            {
-                id:2,
-                image:'https://i.imgur.com/OfpH4fk.png'
-            },
-            {
-                id:3,
-                image:'https://i.imgur.com/OfpH4fk.png'
-            },
-            {
-                id:4,
-                image:'https://i.imgur.com/OfpH4fk.png'
-            }
-        ]
+        news:[]
     };
+
+    componentDidMount(){
+        axios.get('http://localhost:8000/api/news').then(
+            res => {
+                this.setState({news:res.data});
+            }
+        )
+    }
 
     showOrNot = true;
     onClickHandler = (e) =>{
@@ -71,21 +56,19 @@ class News extends Component {
     showedContent = this.state.content.substring(0,150);
 
     changeContentHandler=(id)=>{
-        const images = [...this.state.images];
-        const imageIndex = images.findIndex(function (image) {
-            return image['id']===id;
-        });
-        const image = images[imageIndex];
-        this.showedContent = image.content.substring(0,150);
-        this.setState({
-            left_image: image['left_image'],
-            ownerImagePath:image.ownerImagePath,
-            ownerName:image.ownerName,
-            titleBody:image.titleBody,
-            content: image.content
+        axios.get('http://localhost:8000/api/news/' + id).then(
+            res => {
+               this.setState({
+                   left_image: res.data.image,
+                   ownerImagePath: res.data.author_picture,
+                   ownerName: res.data.author_name,
+                   titleBody: res.data.title,
+                   content: res.data.content
+               });
 
-        });
-
+                this.showedContent = res.data.content.substring(0,150);
+            }
+        );
 
     };
 
@@ -112,7 +95,7 @@ class News extends Component {
                                 </div>
                                 <div className="clearfix"></div>
                                 <Slider
-                                    items={this.state.images}
+                                    items={this.state.news}
                                     line_image_link={this.state.line_image_link}
                                     change_content = {this.changeContentHandler}
                                 />

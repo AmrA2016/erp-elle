@@ -40,6 +40,9 @@ body{
 /*#news .content-container .news-owner-name{
 	font-family: 'Lato', sans-serif;
 }*/
+#news .content-container:after{
+    right: 41px;
+}
 
 #news .content-container .news-title{
     font-family: 'Abril Fatface', cursive;

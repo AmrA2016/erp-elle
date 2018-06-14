@@ -43,7 +43,7 @@ const slider = (props) => {
         {
           props.items.map(
             item => {
-              return <a onClick={()=>props.change_content(item.id)}>
+              return <a key={item.id} onClick={()=>props.change_content(item.id)}>
               <div className="item owl-item">
                 <div className="frame">
                   <div className="video-slider-overlay">
