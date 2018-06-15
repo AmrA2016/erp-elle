@@ -7,8 +7,6 @@ var con = require('../dbconnection');
 /* GET news listing. */
 router.get('/', function(req, res, next) {
 
-
-
     //Initialize query string
     const query_string = 'SELECT * FROM news';
 
@@ -29,14 +27,6 @@ router.get('/', function(req, res, next) {
 
 //Get Single News
 router.get('/:id', function(req, res, next) {
-    //open db connection
-    con.connect(function(err){
-        if(err){
-            console.log('Error connecting to Db');
-            return;
-        }
-        console.log('Connection established');
-    });
 
     //Initialize the query string
     const id = req.params.id;
@@ -72,14 +62,6 @@ router.get('/:id', function(req, res, next) {
 
 //Create News
 router.post('/', function(req, res, next) {
-    //open db connection
-    con.connect(function(err){
-        if(err){
-            console.log('Error connecting to Db');
-            return;
-        }
-        console.log('Connection established');
-    });
 
     //Initialize the query string
     const query_string = 'INSERT INTO news(title,content,image,author_id) ' +
@@ -97,14 +79,6 @@ router.post('/', function(req, res, next) {
 
 //Delete News
 router.delete('/:id', function(req, res, next) {
-    //open db connection
-    con.connect(function(err){
-        if(err){
-            console.log('Error connecting to Db');
-            return;
-        }
-        console.log('Connection established');
-    });
 
     //Initialize the query string
     const id = req.params.id;
